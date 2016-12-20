@@ -7,7 +7,7 @@ Paper currently under review.
  * Clone the repo (in terminal)
  ````dos
  cd my/fav/directory
- git clone https://github.com/mitchellmcm27/streambank-model
+ git clone https://github.com/mitchellmcm27/streambank-model.git
  ````
  
  * Start up Matlab, navigate to the newly created ```streambank-model``` folder in your Matlab file tree
