@@ -21,11 +21,6 @@ if ~isempty(varargin)
 end
 
 
-%% Channel centerlines with NHD attributes
-
-% this has to atch your exact file location
-nhd_shp = 'K:\GIS\v\sites\lines_Project_Join_new.shp';
-
 %% Basic calculations all sites
 input_lat = input_table.lat;
 input_lon = input_table.long;
@@ -103,7 +98,7 @@ for row = 1:size(input_table,1);
     %% Read shapefile and calculate curvature
     
     % Read shapefile into a matlab struct
-    centerline_shp = read_nhd_shapefile(input_table.COMID(row),'COMID',nhd_shp);
+    centerline_shp = read_nhd_shapefile(input_table.COMID(row),'COMID','NHD/lines_Project_Join_new.shp');
     
     % Get UTM X and Y coords from shapefile
     % DP = digitized points
