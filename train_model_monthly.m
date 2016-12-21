@@ -131,7 +131,10 @@ for row = 1:size(input_table,1);
     bd(row)=input_table.bd(row);
     
     % Sample tree cover raster
+    % requires mapping toolbox!
     fc(row) = model_landsat(bank_point,pathrow(row),input_dates(row,:),'FC');
+    
+    % fc(row) = input_table.fc(row) % If you don't have mapping toolbox!
     
     % At one time I also used EVI/NDVI from landsat, this is how
     % evi{row} = model_landsat(bank_point,pathrow(row),input_dates(row,:),'EVI');
