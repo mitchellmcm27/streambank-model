@@ -1,4 +1,7 @@
 # streambank-model
+
+![Model in action](https://github.com/mitchellmcm27/streambank-model/blob/master/gifs/CC01Y1.gif)
+
 ## Streambank erosion model in Matlab
 
 Paper currently under review.
