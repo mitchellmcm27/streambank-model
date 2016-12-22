@@ -1,6 +1,6 @@
 # [streambank-model](https://mitchellmcm27.github.io/streambank-model)
 
-![Model in action](https://github.com/mitchellmcm27/streambank-model/blob/master/gifs/CC01Y1.gif)
+![Model in action](/gifs/CC01Y1.gif?raw=true "Streambank erosion model animation")
 
 ## Streambank erosion model in Matlab
 
