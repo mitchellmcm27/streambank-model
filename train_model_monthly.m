@@ -98,7 +98,7 @@ for row = 1:size(input_table,1);
     %% Read shapefile and calculate curvature
     
     % Read shapefile into a matlab struct
-    centerline_shp = read_nhd_shapefile(input_table.COMID(row),'COMID','NHD/lines_Project_Join_new.shp');
+    centerline_shp = read_nhd_shapefile(input_table.COMID(row),'COMID','data/NHD/lines_Project_Join_new.shp');
     
     % Get UTM X and Y coords from shapefile
     % DP = digitized points
