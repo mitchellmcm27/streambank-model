@@ -52,13 +52,13 @@ An example of the model output is saved in the ```output``` folder. The model ou
 After fitting a model, you can predict erosion rates at any location:
 
 ```matlab
-eval_model_monthly(model_data, 44, output.mdl)
+eval_model_monthly(model_data, 44)
 ```
 
-* The arguments are input data table, row number, and fitted model
-* Note: The fitted model coefficients/exponents are currently hard-coded into the function and passing ```output.mdl``` doesn't actually do anything.
+* The arguments are input data table and row number
+* Note: The model coefficients/exponents fitted in ```train_model_monthly``` are hard-coded into the function logic
 
-This function is similar to ```train_model_monthly``` except that, rather than fitting a model to observed erosion rates, the fitted model is applied to the input data. The function requires all of the same data used in model fitting, except for observed erosion rates. The function applies the model on an entire NHD Flowline (polyline) matching the COMID of the given row. The function samples a given raster representing tree cover at many locations along the reach. You must supply the path to the raster data in the function ```sample_fc_at_points``` (in the ```gis``` folder). Three geotiffs are provided in the ```forest``` folder, sufficient to run the model with the given data (obtained from the UMD Global Land Cover Facility).
+This function is similar to ```train_model_monthly``` except that, rather than fitting a model to observed erosion rates, a fitted model is applied to the input data. The function thus requires all of the same data used in model fitting, except for observed erosion rates. The function applies the model on an entire NHD Flowline (vector polyline) matching the COMID of the given row. The function samples a  raster dataset representing tree cover at many locations along the reach (see ```data``` folder). You must supply the path to the raster data in the function ```sample_fc_at_points``` (in the ```gis``` folder). Three geotiffs are provided in the ```forest``` folder, sufficient to run the model with the given data (obtained from the UMD Global Land Cover Facility).
 
 Many of the other Matlab functions/scripts in the repo are outdated or are used by the functions I mentioned here. Be careful deleting functions (sorry).
 
