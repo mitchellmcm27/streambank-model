@@ -28,10 +28,11 @@ Run the model on a single site:
 train_model_monthly(model_data(44,:), 'animate')
 ```
 
-* 44 is a particular row (site), used for an example
-* ```animate``` (optional) tells the function to plot animations of simulations
-* ```plt``` (optional) plot major results but no animations
-* Animations are saved as .gifs in the ```gifs``` folder
+* The required argument is a table containing necessary data and measurements
+* 44 is a row (streambank site) used for an example; you can pass the whole table or only some rows
+* ```animate``` (optional) tells the function to plot animations of simulations and enables ```plt```
+* ```plt``` (optional) plot only major results (no animations)
+* Animations are saved in the ```gifs``` folder
 
 Run the model on all sites:
 
@@ -47,9 +48,9 @@ An example of the model output is saved in the ```output``` folder. The model ou
 * ```output.mdl1```: statistical model object, using K1 erodibility (see paper)
 * ```output.mdl2```: statistical model object, using K2 erodibility (see paper)
 
-### Application
+### Model application
 
-After fitting a model, you can predict erosion rates at any location:
+After fitting a model, you can estimate erosion rates at any location using the following function. You can write a custom function or other scheme to use the fitted equation in any way you wish. This function is provided as an example of the model application and uses the same datasets that were used in model training and estimates erosion rates throughout an entire river reach.
 
 ```matlab
 eval_model_monthly(model_data, 44)
