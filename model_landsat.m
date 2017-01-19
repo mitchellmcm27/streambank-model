@@ -27,7 +27,7 @@ function [vals,dates] = model_landsat(point, pathrow, dates, type)
     end
 
 
-lsdir = fullfile('K:','GIS','r','landsat8');
+lsdir = fullfile('data');
 interpmethod = 'sin4';
 easting = point(1);
 northing = point(2);
