@@ -134,7 +134,7 @@ for row = 1:size(input_table,1);
     % requires mapping toolbox!
     fc(row) = model_landsat(bank_point,pathrow(row),input_dates(row,:),'FC');
     
-    % fc(row) = input_table.fc(row) % If you don't have mapping toolbox!
+    %fc(row) = input_table.fc(row); % If you don't have mapping toolbox!
     
     % At one time I also used EVI/NDVI from landsat, this is how
     % evi{row} = model_landsat(bank_point,pathrow(row),input_dates(row,:),'EVI');
@@ -419,8 +419,8 @@ opts.MaxIter=2000;
 
 % Erodibility k1
 mdl1 = fitnlm(output_table, ...
-     @(b,x) b(1) .* (exp(b(2).*log(x(:,1)) + b(3).*x(:,9) + b(4).*x(:,2).^b(5))) .* (x(:,6)), ...
-     [0.1 -1 0.5 -.5 1],'Options',opts);
+     @(b,x) b(1) .* (exp(b(2).*log(x(:,1)) + b(3).*x(:,9) + b(4).*x(:,2).^2.5)) .* (x(:,6)), ...
+     [0.1 -1 0.5 -.5],'Options',opts,'ErrorModel','proportional');
 
 % Erodibility k2
 mdl2 = fitnlm(output_table, ...
