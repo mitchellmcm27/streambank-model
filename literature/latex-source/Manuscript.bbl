@@ -1,0 +1,917 @@
+\begin{thebibliography}{93}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Allmendinger et~al.(2005)Allmendinger, Pizzuto, Potter, Johnson and
+  Hession}]{Allmendinger2005}
+\bibinfo{author}{Allmendinger, N.E.}, \bibinfo{author}{Pizzuto, J.E.},
+  \bibinfo{author}{Potter, N.}, \bibinfo{author}{Johnson, T.E.},
+  \bibinfo{author}{Hession, W.C.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{{The influence of riparian vegetation on stream
+  width, eastern Pennsylvania, USA}}.
+\newblock \bibinfo{journal}{Geological Society of America Bulletin}
+  \bibinfo{volume}{117}, \bibinfo{pages}{229--243}.
+\newblock \DOIprefix\doi{10.1130/B25447.1}.
+%Type = Article
+\bibitem[{Arcement and Schneider(1989)}]{George1989}
+\bibinfo{author}{Arcement, G.J.}, \bibinfo{author}{Schneider, V.R.},
+  \bibinfo{year}{1989}.
+\newblock \bibinfo{title}{{Guide for selecting Manning's roughness coefficients
+  for natural channels and flood plains}}.
+\newblock \bibinfo{journal}{U.S. Geological Survey Water-Supply Paper 2339,
+  U.S. Government Printing Office, Washington, DC} .
+%Type = Article
+\bibitem[{Bandyopadhyay et~al.(2014)Bandyopadhyay, Ghosh and
+  De}]{Bandyopadhyay2014}
+\bibinfo{author}{Bandyopadhyay, S.}, \bibinfo{author}{Ghosh, K.},
+  \bibinfo{author}{De, S.K.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{A proposed method of bank erosion vulnerability
+  zonation and its application on the River Haora, Tripura, India}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{224},
+  \bibinfo{pages}{111--121}.
+\newblock \DOIprefix\doi{10.1016/j.geomorph.2014.07.018}.
+%Type = Article
+\bibitem[{Bangen et~al.(2014)Bangen, Wheaton, Bouwes, Bouwes and
+  Jordan}]{Bangen2014}
+\bibinfo{author}{Bangen, S.G.}, \bibinfo{author}{Wheaton, J.M.},
+  \bibinfo{author}{Bouwes, N.}, \bibinfo{author}{Bouwes, B.},
+  \bibinfo{author}{Jordan, C.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{A methodological intercomparison of topographic
+  survey techniques for characterizing wadeable streams and rivers}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{206},
+  \bibinfo{pages}{343--361}.
+\newblock \DOIprefix\doi{10.1016/j.geomorph.2013.10.010}.
+%Type = Article
+\bibitem[{Bartley et~al.(2008)Bartley, Keen, Hawdon, Hairsine, Disher and
+  Kinsey-Henderson}]{Bartley2008}
+\bibinfo{author}{Bartley, R.}, \bibinfo{author}{Keen, R.J.},
+  \bibinfo{author}{Hawdon, A.A.}, \bibinfo{author}{Hairsine, P.B.},
+  \bibinfo{author}{Disher, M.G.}, \bibinfo{author}{Kinsey-Henderson, A.E.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{{Bank erosion and channel width change in a tropical
+  catchment}}.
+\newblock \bibinfo{journal}{Earth Surface Processes and Landforms}
+  \bibinfo{volume}{33}, \bibinfo{pages}{2174--2200}.
+\newblock \DOIprefix\doi{10.1002/esp.1678}.
+%Type = Article
+\bibitem[{Bieger et~al.(2015)Bieger, Rathjens, Allen and Arnold}]{Bieger2015}
+\bibinfo{author}{Bieger, K.}, \bibinfo{author}{Rathjens, H.},
+  \bibinfo{author}{Allen, P.M.}, \bibinfo{author}{Arnold, J.G.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{{Development and evaluation of bankfull hydraulic
+  geometry relationships for the physiographic regions of the United States}}.
+\newblock \bibinfo{journal}{Journal of the American Water Resources
+  Association} \bibinfo{volume}{51}, \bibinfo{pages}{842--858}.
+\newblock \DOIprefix\doi{10.1111/jawr.12282}.
+%Type = Article
+\bibitem[{Blanckaert and de~Vriend(2003)}]{Blanckaert2003}
+\bibinfo{author}{Blanckaert, K.}, \bibinfo{author}{de~Vriend, H.J.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{{Nonlinear modeling of mean flow redistribution in
+  curved open channels}}.
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{39},
+  \bibinfo{pages}{1375}.
+\newblock \DOIprefix\doi{10.1029/2003WR002068}.
+%Type = Article
+\bibitem[{Blanckaert and de~Vriend(2010)}]{Blanckaert2010}
+\bibinfo{author}{Blanckaert, K.}, \bibinfo{author}{de~Vriend, H.J.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{{Meander dynamics: A nonlinear model without
+  curvature restrictions for flow in open-channel bends}}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Earth Surface}
+  \bibinfo{volume}{115}, \bibinfo{pages}{F04011}.
+\newblock \DOIprefix\doi{10.1029/2009JF001301}.
+%Type = Article
+\bibitem[{Bull(1997)}]{Bull1997}
+\bibinfo{author}{Bull, L.J.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{{Magnitude and variation in the contribution of bank
+  erosion to the suspended sediment load of the River Severn, UK}}.
+\newblock \bibinfo{journal}{Earth Surface Processes and Landforms}
+  \bibinfo{volume}{22}, \bibinfo{pages}{1109--1123}.
+\newblock
+  \DOIprefix\doi{10.1002/(SICI)1096-9837(199712)22:12<1109::AID-ESP810>3.0.CO;2-O}.
+%Type = Article
+\bibitem[{Camporeale et~al.(2007)Camporeale, Perona, Porporato and
+  Ridolfi}]{Camporeale2007}
+\bibinfo{author}{Camporeale, C.}, \bibinfo{author}{Perona, P.},
+  \bibinfo{author}{Porporato, A.}, \bibinfo{author}{Ridolfi, L.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{{Hierarchy of models for meandering rivers and
+  related morphodynamic processes}}.
+\newblock \bibinfo{journal}{Reviews of Geophysics} \bibinfo{volume}{45},
+  \bibinfo{pages}{5--28}.
+\newblock \DOIprefix\doi{10.1029/2005RG000185}.
+%Type = Article
+\bibitem[{Camporeale and Ridolfi(2010)}]{Camporeale2010}
+\bibinfo{author}{Camporeale, C.}, \bibinfo{author}{Ridolfi, L.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{{Interplay among river meandering, discharge
+  stochasticity and riparian vegetation}}.
+\newblock \bibinfo{journal}{Journal of Hydrology} \bibinfo{volume}{382},
+  \bibinfo{pages}{138--144}.
+\newblock \DOIprefix\doi{10.1016/j.jhydrol.2009.12.024}.
+%Type = Article
+\bibitem[{Couper(2003)}]{Couper2003}
+\bibinfo{author}{Couper, P.R.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{{Effects of silt–clay content on the susceptibility
+  of river banks to subaerial erosion}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{56},
+  \bibinfo{pages}{95--108}.
+\newblock \DOIprefix\doi{10.1016/S0169-555X(03)00048-5}.
+%Type = Article
+\bibitem[{Crosato(2009)}]{Crosato2009}
+\bibinfo{author}{Crosato, A.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{Physical explanations of variations in river meander
+  migration rates from model comparison}}.
+\newblock \bibinfo{journal}{Earth Surface Processes and Landforms}
+  \bibinfo{volume}{34}, \bibinfo{pages}{2078--2086}.
+\newblock \DOIprefix\doi{10.1002/esp.1898}.
+%Type = Article
+\bibitem[{Daly et~al.(2015)Daly, Miller and Fox}]{Daly2015}
+\bibinfo{author}{Daly, E.R.}, \bibinfo{author}{Miller, R.B.},
+  \bibinfo{author}{Fox, G.A.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{{Modeling streambank erosion and failure along
+  protected and unprotected composite streambanks}}.
+\newblock \bibinfo{journal}{Advances in Water Resources} \bibinfo{volume}{81},
+  \bibinfo{pages}{114--127}.
+\newblock \DOIprefix\doi{10.1016/j.advwatres.2015.01.004}.
+%Type = Incollection
+\bibitem[{Dietrich et~al.(2003)Dietrich, Bellugi, Sklar, Stock, Heimsath and
+  Roering}]{Dietrich2003}
+\bibinfo{author}{Dietrich, W.}, \bibinfo{author}{Bellugi, D.},
+  \bibinfo{author}{Sklar, L.}, \bibinfo{author}{Stock, J.},
+  \bibinfo{author}{Heimsath, A.}, \bibinfo{author}{Roering, J.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{{Geomorphic transport laws for predicting landscape
+  form and dynamics}}.
+\newblock In: \bibinfo{editor}{Wilcock, P.}, \bibinfo{editor}{Iverson, R.}
+  (Eds.), \bibinfo{booktitle}{Prediction in Geomorphology}.
+  \bibinfo{publisher}{American Geophysical Union},
+  \bibinfo{address}{Washington, DC}, pp. \bibinfo{pages}{103--132}.
+%Type = Article
+\bibitem[{Dietrich et~al.(1979)Dietrich, Smith and Dunne}]{Dietrich1979}
+\bibinfo{author}{Dietrich, W.}, \bibinfo{author}{Smith, J.},
+  \bibinfo{author}{Dunne, T.}, \bibinfo{year}{1979}.
+\newblock \bibinfo{title}{{Flow and sediment transport in a sand bedded
+  meander}}.
+\newblock \bibinfo{journal}{The Journal of Geology} \bibinfo{volume}{87},
+  \bibinfo{pages}{305--315}.
+%Type = Article
+\bibitem[{Dietrich and Smith(1983)}]{Dietrich1983}
+\bibinfo{author}{Dietrich, W.E.}, \bibinfo{author}{Smith, J.D.},
+  \bibinfo{year}{1983}.
+\newblock \bibinfo{title}{{Influence of the point bar on flow through curved
+  channels}}.
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{19},
+  \bibinfo{pages}{1173--1192}.
+\newblock \DOIprefix\doi{10.1029/WR019i005p01173}.
+%Type = Article
+\bibitem[{Eke et~al.(2014)Eke, Parker and Shimizu}]{Eke2014}
+\bibinfo{author}{Eke, E.}, \bibinfo{author}{Parker, G.},
+  \bibinfo{author}{Shimizu, Y.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{Numerical modeling of erosional and depositional
+  bank processes in migrating river bends with self-formed width:
+  Morphodynamics of bar push and bank pull}}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Earth Surface}
+  \bibinfo{volume}{119}, \bibinfo{pages}{1455--1483}.
+\newblock \DOIprefix\doi{10.1002/2013JF003020}.
+%Type = Article
+\bibitem[{Faustini et~al.(2009)Faustini, Kaufmann and Herlihy}]{Faustini2009}
+\bibinfo{author}{Faustini, J.M.}, \bibinfo{author}{Kaufmann, P.R.},
+  \bibinfo{author}{Herlihy, A.T.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{Downstream variation in bankfull width of wadeable
+  streams across the conterminous United States}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{108},
+  \bibinfo{pages}{292--311}.
+\newblock \DOIprefix\doi{10.1016/j.geomorph.2009.02.005}.
+%Type = Article
+\bibitem[{Ferguson(2010)}]{Ferguson2010}
+\bibinfo{author}{Ferguson, R.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{{Time to abandon the Manning equation?}}
+\newblock \bibinfo{journal}{Earth Surface Processes and Landforms}
+  \bibinfo{volume}{35}, \bibinfo{pages}{1873--1876}.
+\newblock \DOIprefix\doi{10.1002/esp.2091}.
+%Type = Article
+\bibitem[{Florsheim et~al.(2008)Florsheim, Mount and Chin}]{Florsheim2008}
+\bibinfo{author}{Florsheim, J.L.}, \bibinfo{author}{Mount, J.F.},
+  \bibinfo{author}{Chin, A.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{{Bank erosion as a desirable attribute of rivers}}.
+\newblock \bibinfo{journal}{BioScience} \bibinfo{volume}{58},
+  \bibinfo{pages}{519--528}.
+\newblock \DOIprefix\doi{10.1641/B580608}.
+%Type = Article
+\bibitem[{Gregory(2006)}]{Gregory2006}
+\bibinfo{author}{Gregory, K.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{{The human role in changing river channels}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{79},
+  \bibinfo{pages}{172--191}.
+\newblock \DOIprefix\doi{10.1016/j.geomorph.2006.06.018}.
+%Type = Article
+\bibitem[{G{\"{u}}neralp et~al.(2013)G{\"{u}}neralp, Filippi and
+  Hales}]{Guneralp2013}
+\bibinfo{author}{G{\"{u}}neralp, {\.I}.}, \bibinfo{author}{Filippi, A.},
+  \bibinfo{author}{Hales, B.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{River-flow boundary delineation from digital aerial
+  photography and ancillary images using Support Vector Machines}}.
+\newblock \bibinfo{journal}{GIScience {\&} Remote Sensing}
+  \bibinfo{volume}{50}, \bibinfo{pages}{1--25}.
+\newblock \DOIprefix\doi{10.1080/15481603.2013.778560}.
+%Type = Article
+\bibitem[{G{\"{u}}neralp et~al.(2014)G{\"{u}}neralp, Filippi and
+  Randall}]{Guneralp2014}
+\bibinfo{author}{G{\"{u}}neralp, {\.I}.}, \bibinfo{author}{Filippi, A.M.},
+  \bibinfo{author}{Randall, J.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{Estimation of floodplain aboveground biomass using
+  multispectral remote sensing and nonparametric modeling}}.
+\newblock \bibinfo{journal}{International Journal of Applied Earth Observation
+  and Geoinformation} \bibinfo{volume}{33}, \bibinfo{pages}{119--126}.
+\newblock \DOIprefix\doi{10.1016/j.jag.2014.05.004}.
+%Type = Article
+\bibitem[{G{\"{u}}neralp and Rhoads(2007)}]{Guneralp2007}
+\bibinfo{author}{G{\"{u}}neralp, {\.I}.}, \bibinfo{author}{Rhoads, B.L.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{{Continuous characterization of the planform geometry
+  and curvature of meandering rivers}}.
+\newblock \bibinfo{journal}{Geographical Analysis} \bibinfo{volume}{40},
+  \bibinfo{pages}{1--25}.
+\newblock \DOIprefix\doi{10.1111/j.0016-7363.2007.00711.x}.
+%Type = Article
+\bibitem[{G{\"{u}}neralp and Rhoads(2009)}]{Guneralp2009}
+\bibinfo{author}{G{\"{u}}neralp, {\.I}.}, \bibinfo{author}{Rhoads, B.L.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{Empirical analysis of the planform
+  curvature-migration relation of meandering rivers}}.
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{45},
+  \bibinfo{pages}{W09424}.
+\newblock \DOIprefix\doi{10.1029/2008WR007533}.
+%Type = Article
+\bibitem[{G{\"{u}}neralp and Rhoads(2010)}]{Guneralp2010}
+\bibinfo{author}{G{\"{u}}neralp, {\.I}.}, \bibinfo{author}{Rhoads, B.L.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{{Spatial autoregressive structure of meander
+  evolution revisited}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{120},
+  \bibinfo{pages}{91--106}.
+\newblock \DOIprefix\doi{10.1016/j.geomorph.2010.02.010}.
+%Type = Article
+\bibitem[{G{\"{u}}neralp and Rhoads(2011)}]{Guneralp2011}
+\bibinfo{author}{G{\"{u}}neralp, {\.I}.}, \bibinfo{author}{Rhoads, B.L.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{{Influence of floodplain erosional heterogeneity on
+  planform complexity of meandering rivers}}.
+\newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{38},
+  \bibinfo{pages}{2--7}.
+\newblock \DOIprefix\doi{10.1029/2011GL048134}.
+%Type = Article
+\bibitem[{Harmel et~al.(1999)Harmel, Haan and Dutnell}]{Harmel1999}
+\bibinfo{author}{Harmel, R.}, \bibinfo{author}{Haan, C.},
+  \bibinfo{author}{Dutnell, R.}, \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{{Evaluation of Rosgen's streambank erosion potential
+  assessment in Northeast Oklahoma}}.
+\newblock \bibinfo{journal}{Journal of the American Water Resources
+  Association} \bibinfo{volume}{35}, \bibinfo{pages}{113--121}.
+\newblock \DOIprefix\doi{10.1111/j.1752-1688.1999.tb05456.x}.
+%Type = Article
+\bibitem[{Hooke(1975)}]{Hooke1975}
+\bibinfo{author}{Hooke, R.}, \bibinfo{year}{1975}.
+\newblock \bibinfo{title}{{Distribution of sediment transport and shear stress
+  in a meander bend}}.
+\newblock \bibinfo{journal}{The Journal of Geology} \bibinfo{volume}{83},
+  \bibinfo{pages}{543--565}.
+%Type = Article
+\bibitem[{Hubble et~al.(2010)Hubble, Docker and Rutherfurd}]{Hubble2010}
+\bibinfo{author}{Hubble, T.C.T.}, \bibinfo{author}{Docker, B.B.},
+  \bibinfo{author}{Rutherfurd, I.D.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{{The role of riparian trees in maintaining riverbank
+  stability: A review of Australian experience and practice}}.
+\newblock \bibinfo{journal}{Ecological Engineering} \bibinfo{volume}{36},
+  \bibinfo{pages}{292--304}.
+\newblock \DOIprefix\doi{10.1016/j.ecoleng.2009.04.006}.
+%Type = Article
+\bibitem[{Hupp and Simon(1991)}]{Hupp1991}
+\bibinfo{author}{Hupp, C.R.}, \bibinfo{author}{Simon, A.},
+  \bibinfo{year}{1991}.
+\newblock \bibinfo{title}{{Bank accretion and the development of vegetated
+  depositional surfaces along modified alluvial channels}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{4},
+  \bibinfo{pages}{111--124}.
+\newblock \DOIprefix\doi{10.1016/0169-555X(91)90023-4}.
+%Type = Article
+\bibitem[{Ikeda et~al.(1981)Ikeda, Parker and Sawai}]{Ikeda1981}
+\bibinfo{author}{Ikeda, S.}, \bibinfo{author}{Parker, G.},
+  \bibinfo{author}{Sawai, K.}, \bibinfo{year}{1981}.
+\newblock \bibinfo{title}{{Bend theory of river meanders. Part 1. Linear
+  development}}.
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{112},
+  \bibinfo{pages}{363--377}.
+\newblock \DOIprefix\doi{10.1017/S0022112081000451}.
+%Type = Article
+\bibitem[{Julian and Torres(2006)}]{Julian2006}
+\bibinfo{author}{Julian, J.P.}, \bibinfo{author}{Torres, R.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{{Hydraulic erosion of cohesive riverbanks}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{76},
+  \bibinfo{pages}{193--206}.
+\newblock \DOIprefix\doi{10.1016/j.geomorph.2005.11.003}.
+%Type = Article
+\bibitem[{Kemp et~al.(2016)Kemp, Olley, Ellison and McMahon}]{Kemp2016}
+\bibinfo{author}{Kemp, J.}, \bibinfo{author}{Olley, J.},
+  \bibinfo{author}{Ellison, T.}, \bibinfo{author}{McMahon, J.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{{River response to European settlement in the
+  subtropical Brisbane River, Australia}}.
+\newblock \bibinfo{journal}{Anthropocene}
+  \DOIprefix\doi{10.1016/j.ancene.2015.11.006}.
+%Type = Article
+\bibitem[{Knox(2006)}]{Knox2006}
+\bibinfo{author}{Knox, J.C.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{{Floodplain sedimentation in the Upper Mississippi
+  Valley: Natural versus human accelerated}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{79},
+  \bibinfo{pages}{286--310}.
+\newblock \DOIprefix\doi{10.1016/j.geomorph.2006.06.031}.
+%Type = Article
+\bibitem[{Konsoer et~al.(2016)Konsoer, Rhoads, Langendoen, Best, Ursic, Abad
+  and Garcia}]{Konsoer2016}
+\bibinfo{author}{Konsoer, K.M.}, \bibinfo{author}{Rhoads, B.L.},
+  \bibinfo{author}{Langendoen, E.J.}, \bibinfo{author}{Best, J.L.},
+  \bibinfo{author}{Ursic, M.E.}, \bibinfo{author}{Abad, J.D.},
+  \bibinfo{author}{Garcia, M.H.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{{Spatial variability in bank resistance to erosion on
+  a large meandering, mixed bedrock-alluvial river}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{252},
+  \bibinfo{pages}{80--97}.
+\newblock \DOIprefix\doi{10.1016/j.geomorph.2015.08.002}.
+%Type = Article
+\bibitem[{Kronvang et~al.(2013)Kronvang, Andersen, Larsen and
+  Audet}]{Kronvang2013}
+\bibinfo{author}{Kronvang, B.}, \bibinfo{author}{Andersen, H.E.},
+  \bibinfo{author}{Larsen, S.E.}, \bibinfo{author}{Audet, J.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{Importance of bank erosion for sediment input,
+  storage and export at the catchment scale}}.
+\newblock \bibinfo{journal}{Journal of Soils and Sediments}
+  \bibinfo{volume}{13}, \bibinfo{pages}{230--241}.
+\newblock \DOIprefix\doi{10.1007/s11368-012-0597-7}.
+%Type = Article
+\bibitem[{Kwan and Swanson(2014)}]{Kwan2014a}
+\bibinfo{author}{Kwan, H.}, \bibinfo{author}{Swanson, S.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{Prediction of Annual Streambank Erosion for Sequoia
+  National Forest, California}}.
+\newblock \bibinfo{journal}{Journal of the American Water Resources
+  Association} \bibinfo{volume}{50}, \bibinfo{pages}{1439--1447}.
+\newblock \DOIprefix\doi{10.1111/jawr.12200}.
+%Type = Article
+\bibitem[{Lawler(1993)}]{Lawler1993}
+\bibinfo{author}{Lawler, D.M.}, \bibinfo{year}{1993}.
+\newblock \bibinfo{title}{{The measurement of river bank erosion and lateral
+  channel change: A review}}.
+\newblock \bibinfo{journal}{Earth Surface Processes and Landforms}
+  \bibinfo{volume}{18}, \bibinfo{pages}{777--821}.
+\newblock \DOIprefix\doi{10.1002/esp.3290180905}.
+%Type = Incollection
+\bibitem[{Lawler et~al.(1997)Lawler, Thorne and Hooke}]{Lawler1997}
+\bibinfo{author}{Lawler, D.M.}, \bibinfo{author}{Thorne, C.R.},
+  \bibinfo{author}{Hooke, J.M.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{{Bank erosion and instability}}.
+\newblock In: \bibinfo{editor}{Thorne, C.R.}, \bibinfo{editor}{Hey, R.D.},
+  \bibinfo{editor}{Newson, M.D.} (Eds.), \bibinfo{booktitle}{Applied Fluvial
+  Geomorphology for River Engineering and Management}.
+  \bibinfo{publisher}{Wiley}, \bibinfo{address}{Chichester}, pp.
+  \bibinfo{pages}{137--172}.
+%Type = Article
+\bibitem[{Leopold and Wolman(1960)}]{Leopold1960}
+\bibinfo{author}{Leopold, L.B.}, \bibinfo{author}{Wolman, M.G.},
+  \bibinfo{year}{1960}.
+\newblock \bibinfo{title}{{River meanders}}.
+\newblock \bibinfo{journal}{Geological Society of America Bulletin}
+  \bibinfo{volume}{71}, \bibinfo{pages}{769--793}.
+\newblock \DOIprefix\doi{10.1130/0016-7606(1960)71[769:RM]2.0.CO;2}.
+%Type = Article
+\bibitem[{Lyons et~al.(2015)Lyons, Starek, Wegmann and Mitasova}]{Lyons2015}
+\bibinfo{author}{Lyons, N.J.}, \bibinfo{author}{Starek, M.J.},
+  \bibinfo{author}{Wegmann, K.W.}, \bibinfo{author}{Mitasova, H.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{{Bank erosion of legacy sediment at the transition
+  from vertical to lateral stream incision}}.
+\newblock \bibinfo{journal}{Earth Surface Processes and Landforms}
+  \bibinfo{volume}{40}, \bibinfo{pages}{1764--1778}.
+\newblock \DOIprefix\doi{10.1002/esp.3753}.
+%Type = Article
+\bibitem[{Matsubara and Howard(2014)}]{Matsubara2014}
+\bibinfo{author}{Matsubara, Y.}, \bibinfo{author}{Howard, A.D.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{Modeling planform evolution of a mud-dominated
+  meandering river: Quinn River, Nevada, USA}}.
+\newblock \bibinfo{journal}{Earth Surface Processes and Landforms}
+  \bibinfo{volume}{39}, \bibinfo{pages}{1365--1377}.
+\newblock \DOIprefix\doi{10.1002/esp.3588}.
+%Type = Phdthesis
+\bibitem[{McMillan(2016)}]{McMillan2016}
+\bibinfo{author}{McMillan, M.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{{Evaluating and developing streambank erosion models
+  in the Gulf of Mexico Coastal Plain}}.
+\newblock Ph.D. thesis. The University of West Florida.
+%Type = Article
+\bibitem[{Merritts et~al.(2011)Merritts, Walter, Rahnis, Hartranft, Cox,
+  Gellis, Potter, Hilgartner, Langland, Manion, Lippincott, Siddiqui, Rehman,
+  Scheid, Kratz, Shilling, Jenschke, Datin, Cranmer, Reed, Matuszewski, Voli,
+  Ohlson, Neugebauer, Ahamed, Neal, Winter and Becker}]{Merritts2011}
+\bibinfo{author}{Merritts, D.J.}, \bibinfo{author}{Walter, R.C.},
+  \bibinfo{author}{Rahnis, M.}, \bibinfo{author}{Hartranft, J.},
+  \bibinfo{author}{Cox, S.}, \bibinfo{author}{Gellis, A.},
+  \bibinfo{author}{Potter, N.}, \bibinfo{author}{Hilgartner, W.},
+  \bibinfo{author}{Langland, M.}, \bibinfo{author}{Manion, L.},
+  \bibinfo{author}{Lippincott, C.}, \bibinfo{author}{Siddiqui, S.},
+  \bibinfo{author}{Rehman, Z.}, \bibinfo{author}{Scheid, C.},
+  \bibinfo{author}{Kratz, L.}, \bibinfo{author}{Shilling, A.},
+  \bibinfo{author}{Jenschke, M.}, \bibinfo{author}{Datin, K.},
+  \bibinfo{author}{Cranmer, E.}, \bibinfo{author}{Reed, A.},
+  \bibinfo{author}{Matuszewski, D.}, \bibinfo{author}{Voli, M.},
+  \bibinfo{author}{Ohlson, E.}, \bibinfo{author}{Neugebauer, A.},
+  \bibinfo{author}{Ahamed, A.}, \bibinfo{author}{Neal, C.},
+  \bibinfo{author}{Winter, A.}, \bibinfo{author}{Becker, S.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{{Anthropocene streams and base-level controls from
+  historic dams in the unglaciated mid-Atlantic region, USA.}}
+\newblock \bibinfo{journal}{Philosophical Transactions of the Royal Society A:
+  Mathematical, Physical, and Engineering Sciences} \bibinfo{volume}{369},
+  \bibinfo{pages}{976--1009}.
+\newblock \DOIprefix\doi{10.1098/rsta.2010.0335}.
+%Type = Article
+\bibitem[{Metcalf et~al.(2009)Metcalf, Wilkerson and Harman}]{Metcalf2009}
+\bibinfo{author}{Metcalf, C.K.}, \bibinfo{author}{Wilkerson, S.D.},
+  \bibinfo{author}{Harman, W.A.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{Bankfull regional curves for North and Northwest
+  Florida streams}}.
+\newblock \bibinfo{journal}{Journal of the American Water Resources
+  Association} \bibinfo{volume}{45}, \bibinfo{pages}{1260--1272}.
+\newblock \DOIprefix\doi{10.1111/j.1752-1688.2009.00364.x}.
+%Type = Article
+\bibitem[{Micheli and Kirchner(2002)}]{Micheli2002}
+\bibinfo{author}{Micheli, E.R.}, \bibinfo{author}{Kirchner, J.W.},
+  \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{{Effects of wet meadow riparian vegetation on
+  streambank erosion. 2. Measurements of vegetated bank strength and
+  consequences for failure mechanics}}.
+\newblock \bibinfo{journal}{Earth Surface Processes and Landforms}
+  \bibinfo{volume}{27}, \bibinfo{pages}{687--697}.
+\newblock \DOIprefix\doi{10.1002/esp.340}.
+%Type = Article
+\bibitem[{Micheli et~al.(2004)Micheli, Kirchner and Larsen}]{Micheli2004}
+\bibinfo{author}{Micheli, E.R.}, \bibinfo{author}{Kirchner, J.W.},
+  \bibinfo{author}{Larsen, E.W.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{{Quantifying the effect of riparian forest versus
+  agricultural vegetation on river meander migration rates, central Sacramento
+  River, California, USA}}.
+\newblock \bibinfo{journal}{River Research and Applications}
+  \bibinfo{volume}{20}, \bibinfo{pages}{537--548}.
+\newblock \DOIprefix\doi{10.1002/rra.756}.
+%Type = Article
+\bibitem[{Mitchell et~al.(2004)Mitchell, Lohmann, Houser, Wood, Schaake,
+  Robock, Cosgrove, Sheffield, Duan, Luo, Higgins, Pinker, Tarpley,
+  Lettenmaier, Marshall, Entin, Pan, Shi, Koren, Meng, Ramsay and
+  Bailey}]{Mitchell2004}
+\bibinfo{author}{Mitchell, K.E.}, \bibinfo{author}{Lohmann, D.},
+  \bibinfo{author}{Houser, P.R.}, \bibinfo{author}{Wood, E.F.},
+  \bibinfo{author}{Schaake, J.C.}, \bibinfo{author}{Robock, A.},
+  \bibinfo{author}{Cosgrove, B.a.}, \bibinfo{author}{Sheffield, J.},
+  \bibinfo{author}{Duan, Q.}, \bibinfo{author}{Luo, L.},
+  \bibinfo{author}{Higgins, R.W.}, \bibinfo{author}{Pinker, R.T.},
+  \bibinfo{author}{Tarpley, J.D.}, \bibinfo{author}{Lettenmaier, D.P.},
+  \bibinfo{author}{Marshall, C.H.}, \bibinfo{author}{Entin, J.K.},
+  \bibinfo{author}{Pan, M.}, \bibinfo{author}{Shi, W.}, \bibinfo{author}{Koren,
+  V.}, \bibinfo{author}{Meng, J.}, \bibinfo{author}{Ramsay, B.H.},
+  \bibinfo{author}{Bailey, A.a.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{{The multi-institution North American Land Data
+  Assimilation System (NLDAS): Utilizing multiple GCIP products and partners in
+  a continental distributed hydrological modeling system}}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research}
+  \bibinfo{volume}{109}, \bibinfo{pages}{D07S90}.
+\newblock \DOIprefix\doi{10.1029/2003JD003823}.
+%Type = Article
+\bibitem[{Mosselman(2014)}]{Mosselman2014}
+\bibinfo{author}{Mosselman, E.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{Five common mistakes in fluvial morphodynamic
+  modelling}}.
+\newblock \bibinfo{journal}{Advances in Water Resources} \bibinfo{volume}{16},
+  \bibinfo{pages}{6329}.
+\newblock \DOIprefix\doi{10.1016/j.advwatres.2015.07.025}.
+%Type = Article
+\bibitem[{Odgaard(1987)}]{Odgaard1987}
+\bibinfo{author}{Odgaard, A.J.}, \bibinfo{year}{1987}.
+\newblock \bibinfo{title}{{Streambank erosion along two rivers in Iowa}}.
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{23},
+  \bibinfo{pages}{1125--1236}.
+\newblock \DOIprefix\doi{10.1029/WR023i007p01225}.
+%Type = Article
+\bibitem[{Odgaard(1989)}]{Odgaard1989a}
+\bibinfo{author}{Odgaard, A.J.}, \bibinfo{year}{1989}.
+\newblock \bibinfo{title}{{River-meander model. II: Applications}}.
+\newblock \bibinfo{journal}{Journal of Hydraulic Engineering}
+  \bibinfo{volume}{115}, \bibinfo{pages}{1451--1464}.
+\newblock \DOIprefix\doi{10.1061/(ASCE)0733-9429(1989)115:11(1451)}.
+%Type = Article
+\bibitem[{Osman and Thorne(1988)}]{Osman1988a}
+\bibinfo{author}{Osman, A.M.}, \bibinfo{author}{Thorne, C.R.},
+  \bibinfo{year}{1988}.
+\newblock \bibinfo{title}{{Riverbank Stability Analysis. I: Theory}}.
+\newblock \bibinfo{journal}{Journal of Hydraulic Engineering}
+  \bibinfo{volume}{114}, \bibinfo{pages}{134--150}.
+\newblock \DOIprefix\doi{10.1061/(ASCE)0733-9429(1988)114:2(134)}.
+%Type = Article
+\bibitem[{Ottevanger et~al.(2012)Ottevanger, Blanckaert and
+  Uijttewaal}]{Ottevanger2012}
+\bibinfo{author}{Ottevanger, W.}, \bibinfo{author}{Blanckaert, K.},
+  \bibinfo{author}{Uijttewaal, W.S.J.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{Processes governing the flow redistribution in sharp
+  river bends}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{163-164},
+  \bibinfo{pages}{45--55}.
+\newblock \DOIprefix\doi{10.1016/j.geomorph.2011.04.049}.
+%Type = Article
+\bibitem[{Ottevanger et~al.(2013)Ottevanger, Blanckaert, Uijttewaal and
+  de~Vriend}]{Ottevanger2013}
+\bibinfo{author}{Ottevanger, W.}, \bibinfo{author}{Blanckaert, K.},
+  \bibinfo{author}{Uijttewaal, W.S.J.}, \bibinfo{author}{de~Vriend, H.J.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{Meander dynamics: A reduced-order nonlinear model
+  without curvature restrictions for flow and bed morphology}}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Earth Surface}
+  \bibinfo{volume}{118}, \bibinfo{pages}{1118--1131}.
+\newblock \DOIprefix\doi{10.1002/jgrf.20080}.
+%Type = Article
+\bibitem[{Parker et~al.(2011)Parker, Shimizu, Wilkerson, Eke, Abad, Lauer,
+  Paola, Dietrich and Voller}]{Parker2011}
+\bibinfo{author}{Parker, G.}, \bibinfo{author}{Shimizu, Y.},
+  \bibinfo{author}{Wilkerson, G.V.}, \bibinfo{author}{Eke, E.C.},
+  \bibinfo{author}{Abad, J.D.}, \bibinfo{author}{Lauer, J.W.},
+  \bibinfo{author}{Paola, C.}, \bibinfo{author}{Dietrich, W.E.},
+  \bibinfo{author}{Voller, V.R.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{{A new framework for modeling the migration of
+  meandering rivers}}.
+\newblock \bibinfo{journal}{Earth Surface Processes and Landforms}
+  \bibinfo{volume}{36}, \bibinfo{pages}{70--86}.
+\newblock \DOIprefix\doi{10.1002/esp.2113}.
+%Type = Article
+\bibitem[{Partheniades(1965)}]{Partheniades1965}
+\bibinfo{author}{Partheniades, E.}, \bibinfo{year}{1965}.
+\newblock \bibinfo{title}{{Erosion and deposition of cohesive soils}}.
+\newblock \bibinfo{journal}{Journal of the Hydraulics Division of the American
+  Society of Civil Engineers} \bibinfo{volume}{91}, \bibinfo{pages}{105--139}.
+%Type = Article
+\bibitem[{Pelletier(2012)}]{Pelletier2012}
+\bibinfo{author}{Pelletier, J.D.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{A spatially distributed model for the long-term
+  suspended sediment discharge and delivery ratio of drainage basins}}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research}
+  \bibinfo{volume}{117}, \bibinfo{pages}{F02028}.
+\newblock \DOIprefix\doi{10.1029/2011JF002129}.
+%Type = Article
+\bibitem[{Pelletier et~al.(2015)Pelletier, {Brad Murray}, Pierce, Bierman,
+  Breshears, Crosby, Ellis, Foufoula-Georgiou, Heimsath, Houser, Lancaster,
+  Marani, Merritts, Moore, Pederson, Poulos, Rittenour, Rowland, Ruggiero,
+  Ward, Wickert and Yager}]{Pelletier2015}
+\bibinfo{author}{Pelletier, J.D.}, \bibinfo{author}{{Brad Murray}, A.},
+  \bibinfo{author}{Pierce, J.L.}, \bibinfo{author}{Bierman, P.R.},
+  \bibinfo{author}{Breshears, D.D.}, \bibinfo{author}{Crosby, B.T.},
+  \bibinfo{author}{Ellis, M.}, \bibinfo{author}{Foufoula-Georgiou, E.},
+  \bibinfo{author}{Heimsath, A.M.}, \bibinfo{author}{Houser, C.},
+  \bibinfo{author}{Lancaster, N.}, \bibinfo{author}{Marani, M.},
+  \bibinfo{author}{Merritts, D.J.}, \bibinfo{author}{Moore, L.J.},
+  \bibinfo{author}{Pederson, J.L.}, \bibinfo{author}{Poulos, M.J.},
+  \bibinfo{author}{Rittenour, T.M.}, \bibinfo{author}{Rowland, J.C.},
+  \bibinfo{author}{Ruggiero, P.}, \bibinfo{author}{Ward, D.J.},
+  \bibinfo{author}{Wickert, A.D.}, \bibinfo{author}{Yager, E.M.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{{Forecasting the response of Earth's surface to
+  future climatic and land use changes: A review of methods and research
+  needs}}.
+\newblock \bibinfo{journal}{Earth's Future} \bibinfo{volume}{3},
+  \bibinfo{pages}{220--251}.
+\newblock \DOIprefix\doi{10.1002/2014EF000290}.
+%Type = Article
+\bibitem[{Perucca et~al.(2007)Perucca, Camporeale and Ridolfi}]{Perucca2007}
+\bibinfo{author}{Perucca, E.}, \bibinfo{author}{Camporeale, C.},
+  \bibinfo{author}{Ridolfi, L.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{{Significance of the riparian vegetation dynamics on
+  meandering river morphodynamics}}.
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{43},
+  \bibinfo{pages}{W03430}.
+\newblock \DOIprefix\doi{10.1029/2006WR005234}.
+%Type = Article
+\bibitem[{Pizzuto(1984)}]{Pizzuto1984}
+\bibinfo{author}{Pizzuto, J.E.}, \bibinfo{year}{1984}.
+\newblock \bibinfo{title}{{Bank erodibility of shallow sandbed streams}}.
+\newblock \bibinfo{journal}{Earth Surface Processes and Landforms}
+  \bibinfo{volume}{9}, \bibinfo{pages}{113--124}.
+\newblock \DOIprefix\doi{10.1002/esp.3290090203}.
+%Type = Article
+\bibitem[{Pizzuto and Meckelnburg(1989)}]{Pizzuto1989}
+\bibinfo{author}{Pizzuto, J.E.}, \bibinfo{author}{Meckelnburg, T.S.},
+  \bibinfo{year}{1989}.
+\newblock \bibinfo{title}{{Evaluation of a linear bank erosion equation}}.
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{25},
+  \bibinfo{pages}{1005--1013}.
+\newblock \DOIprefix\doi{10.1029/WR025i005p01005}.
+%Type = Article
+\bibitem[{Pizzuto and O'Neal(2009)}]{Pizzuto2009a}
+\bibinfo{author}{Pizzuto, J.E.}, \bibinfo{author}{O'Neal, M.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{Increased mid-twentieth century riverbank erosion
+  rates related to the demise of mill dams, South River, Virginia}}.
+\newblock \bibinfo{journal}{Geology} \bibinfo{volume}{37},
+  \bibinfo{pages}{19--22}.
+\newblock \DOIprefix\doi{10.1130/G25207A.1}.
+%Type = Article
+\bibitem[{Pizzuto et~al.(2010)Pizzuto, O'Neal and Stotts}]{Pizzuto2010}
+\bibinfo{author}{Pizzuto, J.E.}, \bibinfo{author}{O'Neal, M.},
+  \bibinfo{author}{Stotts, S.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{{On the retreat of forested, cohesive riverbanks}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{116},
+  \bibinfo{pages}{341--352}.
+\newblock \DOIprefix\doi{10.1016/j.geomorph.2009.11.008}.
+%Type = Article
+\bibitem[{Pollen(2007)}]{Pollen2007}
+\bibinfo{author}{Pollen, N.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{{Temporal and spatial variability in root
+  reinforcement of streambanks: Accounting for soil shear strength and
+  moisture}}.
+\newblock \bibinfo{journal}{Catena} \bibinfo{volume}{69},
+  \bibinfo{pages}{197--205}.
+\newblock \DOIprefix\doi{10.1016/j.catena.2006.05.004}.
+%Type = Article
+\bibitem[{Pollen and Simon(2005)}]{Pollen2005}
+\bibinfo{author}{Pollen, N.}, \bibinfo{author}{Simon, A.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{{Estimating the mechanical effects of riparian
+  vegetation on stream bank stability using a fiber bundle model}}.
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{41},
+  \bibinfo{pages}{W07025}.
+\newblock \DOIprefix\doi{10.1029/2004WR003801}.
+%Type = Article
+\bibitem[{Rosgen(1994)}]{Rosgen1994}
+\bibinfo{author}{Rosgen, D.L.}, \bibinfo{year}{1994}.
+\newblock \bibinfo{title}{{A classification of natural rivers}}.
+\newblock \bibinfo{journal}{Catena} \bibinfo{volume}{22},
+  \bibinfo{pages}{169--199}.
+\newblock \DOIprefix\doi{10.1016/0341-8162(94)90001-9}.
+%Type = Inproceedings
+\bibitem[{Rosgen(2001)}]{Rosgen2001}
+\bibinfo{author}{Rosgen, D.L.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{{A practical method of computing streambank erosion
+  rate}}.
+\newblock In: \bibinfo{booktitle}{Proceedings of the Seventh Federal
+  Interagency Sedimentation Conference}, \bibinfo{publisher}{US Inter-agency
+  Committee on Water Resources, Subcommittee on Sedimentation}. pp.
+  \bibinfo{pages}{9--18}.
+%Type = Book
+\bibitem[{Rosgen(2009)}]{Rosgen2009}
+\bibinfo{author}{Rosgen, D.L.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{Watershed Assessment of River Stability and Sediment
+  Supply}}.
+\newblock \bibinfo{edition}{2} ed., \bibinfo{publisher}{Wildland Hydrology}.
+%Type = Article
+\bibitem[{Rossi et~al.(2016)Rossi, Whipple and Vivoni}]{Rossi2015}
+\bibinfo{author}{Rossi, M.W.}, \bibinfo{author}{Whipple, K.X.},
+  \bibinfo{author}{Vivoni, E.R.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{{Precipitation and evapotranspiration controls on
+  daily runoff variability in the contiguous United States and Puerto Rico}}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Earth Surface}
+  \bibinfo{volume}{121}, \bibinfo{pages}{128--145}.
+\newblock \DOIprefix\doi{10.1002/2015JF003446}.
+%Type = Article
+\bibitem[{Sass and Keane(2012)}]{Sass2012}
+\bibinfo{author}{Sass, C.K.}, \bibinfo{author}{Keane, T.D.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{Application of Rosgen's BANCS model for NE Kansas
+  and the development of predictive streambank erosion curves}}.
+\newblock \bibinfo{journal}{Journal of the American Water Resources
+  Association} \bibinfo{volume}{48}, \bibinfo{pages}{774--787}.
+\newblock \DOIprefix\doi{10.1111/j.1752-1688.2012.00644.x}.
+%Type = Article
+\bibitem[{Sefick et~al.(2015)Sefick, Kalin, Kosnicki, Schneid, Jarrell,
+  Anderson, Paller and Feminella}]{Sefick2015}
+\bibinfo{author}{Sefick, S.A.}, \bibinfo{author}{Kalin, L.},
+  \bibinfo{author}{Kosnicki, E.}, \bibinfo{author}{Schneid, B.P.},
+  \bibinfo{author}{Jarrell, M.S.}, \bibinfo{author}{Anderson, C.J.},
+  \bibinfo{author}{Paller, M.H.}, \bibinfo{author}{Feminella, J.W.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{{Empirical estimation of stream discharge using
+  channel geometry in low-gradient, sand-bed streams of the Southeastern
+  Plains}}.
+\newblock \bibinfo{journal}{Journal of the American Water Resources
+  Association} \bibinfo{volume}{51}, \bibinfo{pages}{1060--1071}.
+\newblock \DOIprefix\doi{10.1111/jawr.12278}.
+%Type = Article
+\bibitem[{Sekely et~al.(2002)Sekely, Mulla and Bauer}]{Sekely2002}
+\bibinfo{author}{Sekely, A.}, \bibinfo{author}{Mulla, D.},
+  \bibinfo{author}{Bauer, D.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{{Streambank slumping and its contribution to the
+  phosphorus and suspended sediment loads of the Blue Earth River, Minnesota}}.
+\newblock \bibinfo{journal}{Journal of Soil and Water Conservation}
+  \bibinfo{volume}{57}, \bibinfo{pages}{243--250}.
+%Type = Article
+\bibitem[{Sexton et~al.(2013)Sexton, Song, Feng, Noojipady, Anand, Huang, Kim,
+  Collins, Channan, Dimiceli and Townshend}]{Sexton2013}
+\bibinfo{author}{Sexton, J.O.}, \bibinfo{author}{Song, X.P.},
+  \bibinfo{author}{Feng, M.}, \bibinfo{author}{Noojipady, P.},
+  \bibinfo{author}{Anand, A.}, \bibinfo{author}{Huang, C.},
+  \bibinfo{author}{Kim, D.H.}, \bibinfo{author}{Collins, K.M.},
+  \bibinfo{author}{Channan, S.}, \bibinfo{author}{Dimiceli, C.},
+  \bibinfo{author}{Townshend, J.R.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{Global, 30-m resolution continuous fields of tree
+  cover: Landsat-based rescaling of MODIS Vegetation Continuous Fields with
+  lidar-based estimates of error}}.
+\newblock \bibinfo{journal}{International Journal of Digital Earth}
+  \bibinfo{volume}{6}, \bibinfo{pages}{427--448}.
+\newblock \DOIprefix\doi{10.1080/17538947.2013.786146}.
+%Type = Article
+\bibitem[{Simon et~al.(2000)Simon, Curini, Darby and Langendoen}]{Simon2000}
+\bibinfo{author}{Simon, A.}, \bibinfo{author}{Curini, A.},
+  \bibinfo{author}{Darby, S.}, \bibinfo{author}{Langendoen, E.},
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{{Bank and near-bank processes in an incised
+  channel}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{35},
+  \bibinfo{pages}{193--217}.
+\newblock \DOIprefix\doi{10.1016/S0169-555X(00)00036-2}.
+%Type = Article
+\bibitem[{Simon and Doyle(2007)}]{Simon2007}
+\bibinfo{author}{Simon, A.}, \bibinfo{author}{Doyle, M.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{{Critical evaluation of how the Rosgen classification
+  and associated ``Natural Channel Design'' methods fail to integrate and
+  quantify fluvial processes and channel response}}.
+\newblock \bibinfo{journal}{Journal of the American Water Resources
+  Association} \bibinfo{volume}{43}, \bibinfo{pages}{1117--1131}.
+%Type = Article
+\bibitem[{Stott(1997)}]{Stott1997}
+\bibinfo{author}{Stott, T.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{{A comparison of stream bank erosion processes on
+  forested and moorland streams in the Balquhidder Catchments, central
+  Scotland}}.
+\newblock \bibinfo{journal}{Earth Surface Processes and Landforms}
+  \bibinfo{volume}{22}, \bibinfo{pages}{383--399}.
+\newblock
+  \DOIprefix\doi{10.1002/(SICI)1096-9837(199704)22:4<383::AID-ESP695>3.0.CO;2-4}.
+%Type = Article
+\bibitem[{Thomas and Pollen-Bankhead(2010)}]{Thomas2010}
+\bibinfo{author}{Thomas, R.E.}, \bibinfo{author}{Pollen-Bankhead, N.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{{Modeling root-reinforcement with a fiber-bundle
+  model and Monte Carlo simulation}}.
+\newblock \bibinfo{journal}{Ecological Engineering} \bibinfo{volume}{36},
+  \bibinfo{pages}{47--61}.
+\newblock \DOIprefix\doi{10.1016/j.ecoleng.2009.09.008}.
+%Type = Incollection
+\bibitem[{Thorne(1982)}]{Thorne1982}
+\bibinfo{author}{Thorne, C.}, \bibinfo{year}{1982}.
+\newblock \bibinfo{title}{{Processes and mechanisms of river bank erosion}}.
+\newblock In: \bibinfo{editor}{Hey, R.}, \bibinfo{editor}{Bathurst, J.},
+  \bibinfo{editor}{Thorne, C.} (Eds.), \bibinfo{booktitle}{Gravel-Bed Rivers:
+  Processes, Tools, Environments}. \bibinfo{publisher}{Wiley},
+  \bibinfo{address}{Chichester}, pp. \bibinfo{pages}{227--271}.
+%Type = Article
+\bibitem[{Thorne and Furbish(1995)}]{Thorne1995}
+\bibinfo{author}{Thorne, S.D.}, \bibinfo{author}{Furbish, D.J.},
+  \bibinfo{year}{1995}.
+\newblock \bibinfo{title}{{Influences of coarse bank roughness on flow within a
+  sharply curved river bend}}.
+\newblock \bibinfo{journal}{Geomorphology} \bibinfo{volume}{12},
+  \bibinfo{pages}{241--257}.
+\newblock \DOIprefix\doi{10.1016/0169-555X(95)00007-R}.
+%Type = Article
+\bibitem[{Tiwari et~al.(2012)Tiwari, Das and Bharti}]{Tiwari2012}
+\bibinfo{author}{Tiwari, H.}, \bibinfo{author}{Das, P.},
+  \bibinfo{author}{Bharti, A.K.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{MATLAB programming solution for critical and normal
+  depth in trapezoidal channels}}.
+\newblock \bibinfo{journal}{International Journal of Engineering Research and
+  Technology} \bibinfo{volume}{1}, \bibinfo{pages}{1--3}.
+%Type = Article
+\bibitem[{{U.S. Environmental Protection Agency}(2000)}]{USEPA2000}
+\bibinfo{author}{{U.S. Environmental Protection Agency}}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{{National Water Quality Inventory}} .
+%Type = Inproceedings
+\bibitem[{{Van Eps} et~al.(2004){Van Eps}, Formica, Morris, Beck and
+  Cotter}]{VanEps2004}
+\bibinfo{author}{{Van Eps}, M.A.}, \bibinfo{author}{Formica, S.J.},
+  \bibinfo{author}{Morris, T.L.}, \bibinfo{author}{Beck, J.M.},
+  \bibinfo{author}{Cotter, A.S.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{{Using a bank erosion hazard index (BEHI) to estimate
+  annual sediment loads from streambank erosion in the West Fork White River
+  watershed}}.
+\newblock In: \bibinfo{booktitle}{Self-Sustaining Solutions for Streams,
+  Wetlands, and Watersheds, 12-15, September 2004},
+  \bibinfo{organization}{American Society of Agricultural and Biological
+  Engineers}. \bibinfo{publisher}{American Society of Agricultural and
+  Biological Engineers}.
+\newblock \DOIprefix\doi{10.13031/2013.17386}.
+%Type = Article
+\bibitem[{Vatankhah(2013)}]{Vatankhah2013}
+\bibinfo{author}{Vatankhah, A.R.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{Explicit solutions for critical and normal depths in
+  trapezoidal and parabolic open channels}}.
+\newblock \bibinfo{journal}{Ain Shams Engineering Journal} \bibinfo{volume}{4},
+  \bibinfo{pages}{17--23}.
+\newblock \DOIprefix\doi{10.1016/j.asej.2012.05.002}.
+%Type = Article
+\bibitem[{de~Vente et~al.(2013)de~Vente, Poesen, Verstraeten, Govers,
+  Vanmaercke, {Van Rompaey}, Arabkhedri and Boix-Fayos}]{DeVente2013}
+\bibinfo{author}{de~Vente, J.}, \bibinfo{author}{Poesen, J.},
+  \bibinfo{author}{Verstraeten, G.}, \bibinfo{author}{Govers, G.},
+  \bibinfo{author}{Vanmaercke, M.}, \bibinfo{author}{{Van Rompaey}, A.},
+  \bibinfo{author}{Arabkhedri, M.}, \bibinfo{author}{Boix-Fayos, C.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{Predicting soil erosion and sediment yield at
+  regional scales: Where do we stand?}}
+\newblock \bibinfo{journal}{Earth-Science Reviews} \bibinfo{volume}{127},
+  \bibinfo{pages}{16--29}.
+\newblock \DOIprefix\doi{10.1016/j.earscirev.2013.08.014}.
+%Type = Article
+\bibitem[{Walter and Merritts(2008)}]{Walter2008}
+\bibinfo{author}{Walter, R.C.}, \bibinfo{author}{Merritts, D.J.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{{Natural streams and the legacy of water-powered
+  mills}}.
+\newblock \bibinfo{journal}{Science} \bibinfo{volume}{319},
+  \bibinfo{pages}{299--304}.
+\newblock \DOIprefix\doi{10.1126/science.1151716}.
+%Type = Article
+\bibitem[{Wilkinson et~al.(2014)Wilkinson, Dougall, Kinsey-Henderson, Searle,
+  Ellis and Bartley}]{Wilkinson2014}
+\bibinfo{author}{Wilkinson, S.N.}, \bibinfo{author}{Dougall, C.},
+  \bibinfo{author}{Kinsey-Henderson, A.E.}, \bibinfo{author}{Searle, R.D.},
+  \bibinfo{author}{Ellis, R.J.}, \bibinfo{author}{Bartley, R.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{Development of a time-stepping sediment budget model
+  for assessing land use impacts in large river basins}}.
+\newblock \bibinfo{journal}{Science of the Total Environment}
+  \bibinfo{volume}{468-469}, \bibinfo{pages}{1210--1224}.
+\newblock \DOIprefix\doi{10.1016/j.scitotenv.2013.07.049}.
+%Type = Article
+\bibitem[{Wilkinson et~al.(2009)Wilkinson, Prosser, Rustomji and
+  Read}]{Wilkinson2009}
+\bibinfo{author}{Wilkinson, S.N.}, \bibinfo{author}{Prosser, I.P.},
+  \bibinfo{author}{Rustomji, P.}, \bibinfo{author}{Read, A.M.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{Modelling and testing spatially distributed sediment
+  budgets to relate erosion processes to sediment yields}}.
+\newblock \bibinfo{journal}{Environmental Modelling and Software}
+  \bibinfo{volume}{24}, \bibinfo{pages}{489--501}.
+\newblock \DOIprefix\doi{10.1016/j.envsoft.2008.09.006}.
+%Type = Article
+\bibitem[{Wynn and Mostaghimi(2006)}]{Wynn2006}
+\bibinfo{author}{Wynn, T.M.}, \bibinfo{author}{Mostaghimi, S.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{{The effects of vegetation and soil type on
+  streambank erosion, southwestern Virginia, USA}}.
+\newblock \bibinfo{journal}{Journal of the American Water Resources
+  Association} \bibinfo{volume}{42}, \bibinfo{pages}{69--82}.
+\newblock \DOIprefix\doi{DOI: 10.1111/j.1752-1688.2006.tb03824.x}.
+%Type = Article
+\bibitem[{Xia et~al.(2012)Xia, Mitchell, Ek, Cosgrove, Sheffield, Luo, Alonge,
+  Wei, Meng, Livneh, Duan and Lohmann}]{Xia2012}
+\bibinfo{author}{Xia, Y.}, \bibinfo{author}{Mitchell, K.}, \bibinfo{author}{Ek,
+  M.}, \bibinfo{author}{Cosgrove, B.}, \bibinfo{author}{Sheffield, J.},
+  \bibinfo{author}{Luo, L.}, \bibinfo{author}{Alonge, C.},
+  \bibinfo{author}{Wei, H.}, \bibinfo{author}{Meng, J.},
+  \bibinfo{author}{Livneh, B.}, \bibinfo{author}{Duan, Q.},
+  \bibinfo{author}{Lohmann, D.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{Continental-scale water and energy flux analysis and
+  validation for North American Land Data Assimilation System project phase 2
+  (NLDAS-2): 2. Validation of model-simulated streamflow}}.
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Atmospheres}
+  \bibinfo{volume}{117}, \bibinfo{pages}{D03110}.
+\newblock \DOIprefix\doi{10.1029/2011JD016051}.
+%Type = Article
+\bibitem[{Xiao et~al.(2011)Xiao, White, Hooten and Durham}]{Xiao2011}
+\bibinfo{author}{Xiao, X.}, \bibinfo{author}{White, E.P.},
+  \bibinfo{author}{Hooten, M.B.}, \bibinfo{author}{Durham, S.L.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{{On the use of log-transformation vs. nonlinear
+  regression for analyzing biological power laws}}.
+\newblock \bibinfo{journal}{Ecology} \bibinfo{volume}{92},
+  \bibinfo{pages}{1887--1894}.
+\newblock \DOIprefix\doi{10.1890/11-0538.1}.
+%Type = Article
+\bibitem[{Zeng(2001)}]{Zeng2001}
+\bibinfo{author}{Zeng, X.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{{Global vegetation root distribution for land
+  modeling}}.
+\newblock \bibinfo{journal}{Journal of Hydrometeorology} \bibinfo{volume}{2},
+  \bibinfo{pages}{525--530}.
+\newblock \DOIprefix\doi{10.1175/1525-7541(2001)002<0525:GVRDFL>2.0.CO;2}.
+
+\end{thebibliography}
