@@ -1,6 +1,5 @@
 function [vals] = sample_fc_at_points(points, pathrow)
 
-
 prstring = num2str(pathrow);
     scene = strcat(fullfile('data','forest',filesep),...
         'p0',prstring(1:2),'r',prstring(3:5),'_TC_2005.tif');

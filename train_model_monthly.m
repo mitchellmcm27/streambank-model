@@ -1,9 +1,27 @@
 
 function [output] = train_model_monthly(input_table,varargin)
 
+%% Add necessary folders to path
 addpath('utils')
 addpath('bdv model')
 addpath('gis')
+addpath('m_map')
+%% Check for toolboxes
+MAPPING_TB = license('test', 'Mapping_Toolbox');
+STATS_TB = license('test', 'Statistics_Toolbox');
+
+if MAPPING_TB
+    cprintf('comment', 'Mapping toolbox is available\n');
+else
+    cprintf(-[1, 0.5, 0], 'Mapping toolbox is not available\n');
+end
+
+if STATS_TB
+    cprintf('comment', 'Stats toolbox is available\n');
+else
+    cprintf('*err', 'Stats toolbox is not available\n');
+end
+
 
 %% Process args
  plt=0;
@@ -22,43 +40,26 @@ end
 
 
 %% Basic calculations all sites
-input_lat = input_table.lat;
-input_lon = input_table.long;
-[input_x, input_y] = deg2utm(input_lat,input_lon); % returns column vectors
-
-start_dates = input_table.date_y1; % initial measurement date = model simulation start date
-dates_y2 = input_table.date_y2; % 1 year later
-dates_y3 = input_table.date_y3; % final measurement date
-
-end_dates = dates_y3; % assume model simulation end date is the final measurement date
-end_dates(isnat(end_dates)) = dates_y2(isnat(end_dates)); % for sites that only have 1 year of data, take the 2nd year as end date (not applicable anymore)
+[input_x, input_y] = deg2utm(input_table.lat, input_table.long); % returns column vectors
 
 % Round dates to the nearest first day of the month
 % e.g. January 3rd becomes January 1st
 % but January 28th becomes February 1st.
 % The cutoff is the 15th (16th goes to first of next month).
-start_dates = round_dates(start_dates); % inclusive
-end_dates = round_dates(end_dates); % exclusive
+start_dates = round_dates(input_table.date_y1); % inclusive
+end_dates = round_dates(input_table.date_y3); % exclusive
 input_dates = [start_dates end_dates]; % concatenate into a matrix with 2 cols
 
-A = input_table.A; % drainage area sqkm
 S = input_table.S; % downstream slope km/km
-region = input_table.region; % code that determines which regional curve to use
 
-[B, H, Q, U] = model_geometry(A,region); % regional curves
+% Regional curve stream geometry
+% args: drainage area (sq km), region (which equation to use)
+[B, H, Q, U] = model_geometry(input_table.A); % regional curves
 
 A_bkf = B.*H; % Bankfull cross-section area
 Rh = A_bkf./(H + B + H); % Bankfull hydrualic radius
 manning_n = 0.087; % assumed constant over study area
 Cf0 = 9.81*manning_n.^2./(Rh.^(1/6)); % Friction factor (dimensionless)
-
-pathrow=input_table.pathrow; % Landsat (WRS-2) path/row
-
-bd = input_table.bd; % SSURGO bulk density
-psand = input_table.psand; % SSURGO percent sand
-K = input_table.K; % SSURGO erodibility factor
-f=input_table.f_monthly_2; % Monthly storm frequency over 2 years
-fc = input_table.fc; % Tree cover 
 
 %% Allocate empty vectors for intermediate calculations
 
@@ -71,9 +72,15 @@ U_bank_monthly = cell(size(input_table,1),1);
 % Near-bank depth excess
 H_bank_monthly = cell(size(input_table,1),1);
 
+% Read NHD shapefile
+lines = m_shaperead('data/NHD/lines_Project_Join_new');
+
+fc = NaN(size(input_table.fc,1),1);
+bd = NaN(size(input_table.bd,1),1);
 
 %% Loop over each site (rows in input table)
-for row = 1:size(input_table,1);
+for row = 1:size(input_table,1)
+    
     try
         % only process rows that have gis == true, which means 
         % they are suitable for the model
@@ -81,14 +88,10 @@ for row = 1:size(input_table,1);
     catch
         continue
     end
-    
-    disp('------------------------------------------')
-    disp(strcat('Site: ',input_table.Properties.RowNames(row)))
-    disp('------------------------------------------')
-    disp('')
-    disp('Cross-section Geometry:')
-    disp(strcat('... Width:',32,num2str(B(row))))
-    disp(strcat('... Depth:',32,num2str(H(row))))
+    cprintf('*blue',strcat('Proccessing row:',32, input_table.Properties.RowNames{row},'\n'))
+    fprintf(strcat(32,32,'Cross-section Geometry:','\n'))
+    fprintf(strcat(32,32,32,32,'Width:',32,num2str(B(row)),'\n'))
+    fprintf(strcat(32,32,32,32,'Depth:',32,num2str(H(row)),'\n'))
     
     % Determine simulation dates based on length of observation (months)
     % For each row, this creates a vector of monthly dates between the 
@@ -98,7 +101,9 @@ for row = 1:size(input_table,1);
     %% Read shapefile and calculate curvature
     
     % Read shapefile into a matlab struct
-    centerline_shp = read_nhd_shapefile(input_table.COMID(row),'COMID','data/NHD/lines_Project_Join_new.shp');
+    idx = find(strcmp(string(input_table.COMID(row)), string(lines.COMID)));
+    centerline_shp.X = lines.ncst{idx}(:,1);
+    centerline_shp.Y = lines.ncst{idx}(:,2);
     
     % Get UTM X and Y coords from shapefile
     % DP = digitized points
@@ -131,10 +136,13 @@ for row = 1:size(input_table,1);
     bd(row)=input_table.bd(row);
     
     % Sample tree cover raster
-    % requires mapping toolbox!
-    fc(row) = model_landsat(bank_point,pathrow(row),input_dates(row,:),'FC');
-    
-    %fc(row) = input_table.fc(row); % If you don't have mapping toolbox!
+    if MAPPING_TB
+        % requires mapping toolbox!
+        fc(row) = model_landsat(bank_point,pathrow(row),input_dates(row,:),'FC');
+    else
+        % If you don't have mapping toolbox!
+        fc(row) = input_table.fc(row); 
+    end
     
     % At one time I also used EVI/NDVI from landsat, this is how
     % evi{row} = model_landsat(bank_point,pathrow(row),input_dates(row,:),'EVI');
@@ -143,10 +151,6 @@ for row = 1:size(input_table,1);
     if strcmpi(input_table.Properties.RowNames(row),'SM01Y1')
         fc(row)=0.05;
     end
-        
-    % Land cover - no longer used
-    % nlcd(row) = model_land_cover(bank_point(:,1), bank_point(:,2),'16 N');
-    % mcd(row) = mcd_lookup(nlcd(row));
     
     %% 1-D Streamflow model
     % Model monthly discharge and flow depth
@@ -158,7 +162,7 @@ for row = 1:size(input_table,1);
     V_noah(V_noah<0) = 0; % give negative months a value of 0
     
     % Multiply by drainage area and convert units
-    V_noah = V_noah.*A(row).*1000.*1000; % kg (or L, or dm^3)
+    V_noah = V_noah.*input_table.A(row).*1000.*1000; % kg (or L, or dm^3)
     V_noah = V_noah./1000; % m^3
     
     % Discharge calculation
@@ -168,7 +172,7 @@ for row = 1:size(input_table,1);
     ndays = eomday(year(Q_dates),month(Q_dates)); % number of days in each month
     
     % number of wet days = storm frequency (PRISM) * no. days
-    wet_days = f{row}.*ndays;
+    wet_days = input_table.f_monthly_2{row}.*ndays;
 
     % Assuming events last 1 day and each event is the same magnitude
     Q_est = V_noah./wet_days./24./60./60; % estimated event Q m3/s
@@ -190,28 +194,26 @@ for row = 1:size(input_table,1);
         h1=subplot(2,2,1);
         hold on
         base_color = rgb('cloudy blue');
-        dark_color = base_color./[2 2 1.5];
         
-        d=datenum(Q_dates);
+        d=datetime(Q_dates);
         
-        dt =wet_days./7; % weeks
         b1=bar(d,Q_est);
         b1.EdgeColor='none';
         b1.FaceColor=base_color;
         plot(d,H_est,'k-');
-        plot([min(Q_dates) max(Q_dates)],[H(row) H(row)],'k:')
+        plot([min(d) max(d)],[H(row) H(row)],'k:')
         h2.XLim=h1.XLim;
         h2.Color='None';
         h2.Box = 'off';
         legend('Q','h','h_{bkf}','\Delta t','EVI','Location','north','Orientation','horizontal','FontName','Myriad Pro')
-        p1 = scatter(NaN,NaN,'or');
-        p2 = scatter(NaN,NaN,'.r');
+        p1 = scatter(NaT,NaN,'or');
+        p2 = scatter(NaT,NaN,'.r');
     end
     
     %% Flow Modeling
     
     % clip the centerline to a reasonable length
-    % expressed in node indices (=1/10 width)
+    % expressed in node indices (~1/10 width)
     len = 160;
     low = max(1,idx_cl-len); % upstream limit: "len" indices
     hi = min(idx_cl+len/2,numel(x)); % downstream limit: "len/2" indices
@@ -232,9 +234,7 @@ for row = 1:size(input_table,1);
     for mnth = 1:numel(model_dates)      
         if mnth==1
             % First month of simulations...
-            
-            
-            % simulate bankfull conditions to set bed topography
+            % simulate bankfull conditions to set bed initial topography
             AR0 = 0;
             [unl,~,~,~] = ...
             model_velocity_nonlinear_swe(x,y,iR,Q(row),B(row),H(row),s,Cf0(row),S(row),1,AR0,1);
@@ -272,17 +272,17 @@ for row = 1:size(input_table,1);
         % From BdV,
         % Unb = U * as/R * B/2
         % Hnb = H* A/R * B/2
-        U_nb = unl.q./unl.h.*unl.asR.*B(row)/2;
-        H_nb = H(row).*(unl.AR+unl.Fr2R).*B(row)/2;
-        BR = B(row)*unl.iR(:); % B/R(s)
+        U_nb{mnth} = unl.q ./ unl.h .* unl.asR .* B(row)/2;
+        H_nb{mnth} = H(row).*(unl.AR+unl.Fr2R).* B(row)/2;
+        BR = B(row) * unl.iR(:); % B/R(s)
         
         % Make sure we are using the correct bank!!
         if input_table.bank(row)=='Left'
-            U_bank_monthly{row}(mnth) = U_nb(idx_cl);
-            H_bank_monthly{row}(mnth) = H_nb(idx_cl);
+            U_bank_monthly{row}(mnth) = U_nb{mnth}(idx_cl);
+            H_bank_monthly{row}(mnth) = H_nb{mnth}(idx_cl);
         else
-            U_bank_monthly{row}(mnth) = -U_nb(idx_cl);
-            H_bank_monthly{row}(mnth) = -H_nb(idx_cl);
+            U_bank_monthly{row}(mnth) = -U_nb{mnth}(idx_cl);
+            H_bank_monthly{row}(mnth) = -H_nb{mnth}(idx_cl);
         end
         
         %% Plot data 
@@ -327,7 +327,7 @@ for row = 1:size(input_table,1);
             axis equal
             pcolor([x+B(row)/2*cos(n);x-B(row)/2*cos(n)],...
                 [y+B(row)/2*sin(n);y-B(row)/2*sin(n)],...
-                mean(unl.q./unl.h)*0 + [-U_nb, U_nb]');
+                mean(unl.q./unl.h)*0 + [-U_nb{mnth}, U_nb{mnth}]');
             shading interp
             colorbar
             axis equal
@@ -349,7 +349,7 @@ for row = 1:size(input_table,1);
             p=plot(s,BR);
             p.Color=[0.6 0.6 0.6];
             hold on
-            plot(s,U_nb./unl.q./unl.h,'r-',s,H_nb./unl.h,'b-')
+            plot(s,U_nb{mnth}./unl.q./unl.h,'r-',s,H_nb{mnth}./unl.h,'b-')
             drawnow;
             legend('B/R','\Delta U/U','\Delta H/H','FontName','Myriad Pro')
             axis tight
@@ -370,6 +370,13 @@ for row = 1:size(input_table,1);
         end
         drawnow;
     end
+    
+        
+    output.results{row}.U_nb = mean(cell2mat(U_nb),2)';
+    output.results{row}.H_bank = mean(cell2mat(H_nb),2)' + H(row);
+    output.results{row}.X = x;
+    output.results{row}.Y = y;
+    
     if plt
         figure
         plot(model_dates,U_bank_monthly{row}*10,'r',model_dates,H_bank_monthly{row},'b')
@@ -406,70 +413,80 @@ H_bank = H_bar+H;
 
 % Create an output table
 % Some of these variables aren't used but may be interesting
-output_table = table(fc, bd, A, psand, K, U_bar, H_bar, S, H_bank, y);
+output_table = table(fc, bd, U_bar, H_bank, y);
 output_table.Properties.RowNames=input_table.Properties.RowNames;
 
 % subsample the output table for only rows that were included in the model
 output_table = output_table(input_table.gis,:);
 disp(output_table);
 
-% Setup statistical model options
-opts = statset('nlinfit');
-opts.MaxIter=2000;
-
-% Erodibility k1
-mdl1 = fitnlm(output_table, ...
-     @(b,x) b(1) .* (exp(b(2).*log(x(:,1)) + b(3).*x(:,9) + b(4).*x(:,2).^2.5)) .* (x(:,6)), ...
-     [0.1 -1 0.5 -.5],'Options',opts,'ErrorModel','proportional');
-
-% Erodibility k2
-mdl2 = fitnlm(output_table, ...
-    @(b,x) b(1) .* x(:,1).^b(3).*exp(b(2).*x(:,9)).*x(:,6),...
-    [1 -1 -0.5 ],'Options',opts,'ErrorModel','proportional');
-
-% Final plots of results
-figure
-gscatter(predict(mdl1),mdl1.Variables.y,output_table.Properties.RowNames)
-plot1;
-ax=gca; ax.XScale='log';ax.YScale='log';
-legend off
-xlabel('Simulated')
-ylabel('Observed')
-
-figure
-gscatter(predict(mdl2),mdl2.Variables.y,output_table.Properties.RowNames)
-plot1;
-ax=gca; ax.XScale='log';ax.YScale='log';
-legend off
-xlabel('Simulated')
-ylabel('Observed')
-
-figure
-subplot(1,2,1)
-scatter(predict(mdl1),mdl1.Variables.y,'ko','filled')
-plot1;
-ax=gca; ax.XScale='log';ax.YScale='log';
-ax.XLim = [0.001 5];
-ax.YLim = [0.001 5];
-legend off
-xlabel('Predicted erosion rate (K=K_1)')
-ylabel('Observed erosion rate (m/yr)')
-plot1
-
-subplot(1,2,2)
-scatter(predict(mdl2),mdl2.Variables.y,'ko','filled')
-plot1;
-ax=gca; ax.XScale='log';ax.YScale='log';
-ax.XLim = [0.001 5];
-ax.YLim = [0.001 5];
-legend off
-xlabel('Predicted erosion rate (K=K_2)')
-ylabel('Observed erosion rate (m/yr)')
-plot1
-
 % Output data
 output.tbl = output_table;
-output.mdl1 = mdl1;
-output.mdl2 = mdl2;
+
+%% Model fitting
+% requires statistics & ML toolbox
+% If you don't have the toolbox, the output table contains X and Y
+% covariates... 
+% use R or similar to fit a model
+
+if STATS_TB
+    % Setup statistical model options
+    opts = statset('nlinfit');
+    opts.MaxIter=2000;
+
+    % Erodibility k1
+    mdl1 = fitnlm(output_table, ...
+         @(b,x) b(1) .* (exp(b(2).*log(x(:,1)) + b(3).*x(:,4) + b(4).*x(:,2).^2.5)) .* (x(:,3)), ...
+         [0.1 -1 0.5 -.5],'Options',opts,'ErrorModel','proportional');
+
+    % Erodibility k2
+    mdl2 = fitnlm(output_table, ...
+        @(b,x) b(1) .* x(:,1).^b(3).*exp(b(2).*x(:,4)).*x(:,3),...
+        [1 -1 -0.5 ],'Options',opts,'ErrorModel','proportional');
+
+    % Final plots of results
+    figure
+    gscatter(predict(mdl1),mdl1.Variables.y,output_table.Properties.RowNames)
+    plot1;
+    ax=gca; ax.XScale='log';ax.YScale='log';
+    legend off
+    xlabel('Simulated')
+    ylabel('Observed')
+
+    figure
+    gscatter(predict(mdl2),mdl2.Variables.y,output_table.Properties.RowNames)
+    plot1;
+    ax=gca; ax.XScale='log';ax.YScale='log';
+    legend off
+    xlabel('Simulated')
+    ylabel('Observed')
+
+    figure
+    subplot(1,2,1)
+    scatter(predict(mdl1),mdl1.Variables.y,'ko','filled')
+    plot1;
+    ax=gca; ax.XScale='log';ax.YScale='log';
+    ax.XLim = [0.001 5];
+    ax.YLim = [0.001 5];
+    legend off
+    xlabel('Predicted erosion rate (K=K_1)')
+    ylabel('Observed erosion rate (m/yr)')
+    plot1
+
+    subplot(1,2,2)
+    scatter(predict(mdl2),mdl2.Variables.y,'ko','filled')
+    plot1;
+    ax=gca; ax.XScale='log';ax.YScale='log';
+    ax.XLim = [0.001 5];
+    ax.YLim = [0.001 5];
+    legend off
+    xlabel('Predicted erosion rate (K=K_2)')
+    ylabel('Observed erosion rate (m/yr)')
+    plot1
+    output.mdl1 = mdl1;
+    output.mdl2 = mdl2;
+    
+    predict(mdl1)
+end
 
 end

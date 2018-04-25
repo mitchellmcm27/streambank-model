@@ -1,11 +1,8 @@
-function [line] = read_nhd_shapefile(field,target_field,dir)
+function [line] = read_nhd_shapefile(value,target_field,dir)
 
-lines = shaperead(dir);
-
-for j=1:numel(lines)
-    if field == getfield(lines(j),target_field)
-        line = lines(j);
-        return
-    end    
-end
+lines = m_shaperead(dir);
+string(lines.(target_field));
+idx = find(strcmp(string(value), string(lines.(target_field))));
+line.X = lines.ncst{idx}(:,1);
+line.Y = lines.ncst{idx}(:,2);
 

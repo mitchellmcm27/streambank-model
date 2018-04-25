@@ -1,4 +1,4 @@
-function [W,D,Q,U] = model_geometry(A,region)
+function [W,D,Q,U] = model_geometry(A)
 
 A_mi = A.*0.386102;
 
