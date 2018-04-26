@@ -1,0 +1,672 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Histograms>
+      <HistItem>
+        <HistMin>7.503349999999999</HistMin>
+        <HistMax>200.99665</HistMax>
+        <BucketCount>1000</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>1|1|1|0|1|1|1|1|1|10|25|13|16|18|15|9|26|36|52|64|58|53|59|59|63|74|103|94|111|133|162|64|154|207|248|297|320|313|365|406|463|446|405|392|440|446|215|355|350|356|316|286|288|221|230|252|196|227|255|240|218|110|215|198|181|190|209|178|202|206|189|183|180|153|153|187|161|85|158|168|167|155|135|138|97|103|97|73|101|103|99|79|53|91|75|77|83|84|81|93|104|94|113|101|97|107|102|100|47|94|96|82|105|111|127|112|106|101|110|117|92|102|104|32|100|112|115|126|120|107|116|114|116|117|118|111|110|122|70|139|115|125|115|132|122|128|139|116|132|136|99|127|118|126|64|119|106|112|96|97|116|139|123|99|124|105|94|111|107|56|110|103|113|97|107|114|94|131|124|121|111|113|92|95|54|87|87|96|77|97|85|100|101|93|88|104|82|92|82|79|41|98|96|68|85|81|74|78|84|94|58|66|72|64|79|33|58|68|62|53|52|50|50|61|66|54|63|60|61|64|55|29|53|57|62|55|52|54|55|41|44|48|46|62|49|45|25|45|45|38|38|36|52|52|38|58|59|43|50|61|46|25|38|41|44|57|43|46|44|46|55|53|48|57|42|58|51|33|53|57|44|54|67|40|51|53|60|56|48|45|66|59|38|59|62|56|64|60|65|57|61|55|61|75|69|61|59|33|64|56|66|75|64|66|73|74|62|72|53|82|80|72|74|21|86|79|89|77|88|96|74|84|81|92|99|91|88|92|40|93|99|90|101|107|117|114|123|126|125|109|120|119|129|58|105|141|127|123|142|113|131|148|141|137|139|126|148|151|142|66|126|139|128|161|139|154|127|131|159|156|164|146|130|128|69|122|146|123|134|125|116|129|114|117|120|119|112|101|117|104|47|87|84|84|96|87|88|74|86|77|94|87|78|95|79|42|60|93|82|78|81|75|70|82|92|91|84|85|102|89|48|96|76|113|95|100|93|98|107|84|105|95|102|92|119|88|59|110|101|114|108|107|114|128|97|99|99|103|102|90|95|64|80|79|89|94|74|94|89|75|93|87|75|78|83|79|38|94|69|55|67|56|60|71|53|66|71|60|85|79|82|72|42|67|86|79|81|86|85|76|85|99|84|78|61|85|77|38|55|70|82|72|94|85|84|88|99|74|99|79|87|102|83|51|93|94|86|81|97|104|108|116|88|87|77|64|74|71|41|74|90|76|69|70|71|80|74|72|60|56|72|61|67|40|67|74|66|81|84|84|75|74|92|79|77|81|76|85|83|44|65|80|69|90|81|85|71|95|75|82|94|89|84|78|49|91|74|104|82|77|80|91|78|122|91|86|107|80|107|49|86|113|106|94|126|108|110|93|98|105|105|90|94|97|116|51|100|115|121|112|128|105|121|121|115|120|109|96|118|109|67|97|103|101|108|100|102|82|114|104|95|85|107|102|112|105|53|97|88|106|85|103|117|98|92|106|99|92|100|106|89|55|86|88|95|97|85|64|84|76|75|104|81|98|92|90|37|78|80|93|66|83|78|89|89|89|68|82|74|70|69|72|40|60|74|70|65|71|75|69|56|90|68|70|77|80|80|35|83|91|71|63|80|74|83|77|74|85|82|87|76|106|36|87|71|96|82|92|110|92|106|100|93|83|107|101|93|84|53|83|89|96|88|71|84|74|68|71|67|67|62|72|65|36|67|69|66|73|69|55|56|68|60|69|62|67|73|50|17|64|55|39|54|52|41|44|56|57|49|56|52|42|41|43|21|41|24|33|28|35|37|30|27|40|28|34|37|31|26|15|23|24|18|27|26|27|29|21|33|27|19|16|25|23|20|15|27|23|24|17|18|21|19|20|23|15|22|15|17|15|8|20|15|9|16|14|13|14|16|16|11|11|17|26|14|7|7|24|19|17|15|19|7|20|13|16|21|19|14|9|8|5|19|19|14|7|20|15|18|15|15|19|16|16|16|12|8|20|12|17|16|13|15|7|20|11|11|9|11|13|13|6|22|8|12|16|19|14|14|18|15|19|13|9|9|16|9|8|25|10|6|15|11|11|16|20|11|9|11|10|19|6|9|11|15|14|13|9|17|14|8|12|6|10|7|11|6|7|5|10|7|10|9|6|9|5|5|3|1|4|1|2|4|2|5|0|4|2|0|0|1|4|1|2|2|1|0|2|1|1|3|1|1|1|0|0|1|0|1|2|1|1|2|0|1|0|1|0|0|0|1|0|0|1|2|0|1|1|1|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Net short wave radiation flux (surface) [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">NSWRS</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+      <MDI key="STATISTICS_MAXIMUM">200.9</MDI>
+      <MDI key="STATISTICS_MEAN">79.397939865638</MDI>
+      <MDI key="STATISTICS_MINIMUM">7.6</MDI>
+      <MDI key="STATISTICS_STDDEV">47.835891452331</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Histograms>
+      <HistItem>
+        <HistMin>-118.3536</HistMin>
+        <HistMax>-11.0464</HistMax>
+        <BucketCount>1000</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>1|0|0|0|1|0|0|0|0|0|1|1|0|0|0|0|1|1|1|0|0|3|1|4|1|2|1|1|2|2|1|2|2|4|8|1|3|4|4|4|4|6|4|5|5|7|5|3|9|4|6|7|6|8|9|8|3|2|11|7|6|3|20|6|5|11|14|11|7|15|4|7|15|9|9|19|15|11|12|16|15|13|10|15|16|15|17|20|16|39|21|21|17|20|24|21|18|27|31|25|21|44|31|71|23|48|36|39|22|33|22|28|39|37|34|49|89|37|35|48|54|49|53|55|52|58|57|64|62|48|120|54|61|66|58|60|74|68|58|53|47|61|62|71|149|69|88|88|89|82|74|76|82|60|85|74|82|144|69|76|72|86|64|70|64|73|74|56|72|57|74|138|59|86|69|95|69|68|63|64|65|56|67|74|61|129|65|56|67|50|53|54|52|41|53|41|59|65|106|45|56|62|56|51|47|58|53|69|49|65|58|55|105|63|74|68|69|66|65|54|70|56|77|65|47|60|142|55|70|66|67|66|64|65|63|61|61|76|73|115|70|59|54|60|69|80|64|51|53|58|48|51|68|105|45|59|45|43|47|55|58|46|44|41|45|51|42|69|42|46|39|45|44|40|34|40|45|34|41|44|45|73|38|30|41|38|46|48|38|35|38|42|49|37|79|48|35|31|48|39|39|37|35|48|35|40|44|33|97|44|35|39|36|37|43|45|40|38|43|40|43|43|66|29|36|49|54|32|33|31|37|44|29|30|46|83|40|40|38|35|43|48|35|29|50|34|48|41|39|107|40|44|42|44|37|48|43|49|39|53|42|43|52|82|42|43|46|39|47|42|45|33|42|33|38|44|76|46|36|49|43|45|35|29|37|43|42|34|41|41|73|35|30|37|36|43|35|32|39|37|44|42|55|34|98|45|51|38|45|40|49|42|41|48|38|30|41|87|45|38|53|40|36|38|44|41|22|55|63|60|45|88|56|48|42|47|44|39|49|50|45|50|30|45|45|84|49|49|43|42|45|40|35|51|50|51|42|57|86|67|53|54|56|48|51|55|54|47|62|59|66|53|130|71|55|63|74|61|64|68|59|69|72|64|77|74|142|71|81|89|87|88|82|88|86|71|75|101|69|83|191|94|76|83|93|67|80|90|74|89|77|88|88|184|88|109|87|93|103|91|95|116|80|109|128|102|121|288|123|140|132|124|156|150|122|143|130|136|123|144|126|276|112|120|120|128|140|143|126|147|154|158|155|183|371|159|183|207|203|179|175|165|157|155|150|156|176|157|284|142|152|140|161|140|163|166|159|142|146|145|137|162|314|143|168|150|132|163|119|146|137|152|124|145|144|296|143|136|173|146|155|134|142|139|123|137|123|118|104|227|117|97|109|104|110|98|88|87|103|82|121|100|96|194|86|89|86|86|79|89|76|83|71|95|91|82|150|102|70|77|78|84|64|72|63|76|74|69|83|84|154|69|73|69|68|76|64|77|65|66|65|62|64|73|136|51|67|62|59|61|80|63|62|57|61|74|62|132|60|61|69|68|67|65|61|52|73|77|58|59|67|117|60|71|40|77|50|67|59|61|70|67|51|57|46|119|53|55|43|56|50|70|55|72|59|67|57|58|127|72|62|61|66|74|50|56|71|57|57|80|70|67|148|53|67|65|78|77|67|58|64|74|55|58|85|79|150|87|73|80|91|72|76|76|88|91|89|86|90|87|180|97|92|78|94|104|94|98|85|90|97|91|109|209|100|108|122|115|120|132|131|128|123|121|108|134|126|256|136|110|122|116|115|129|118|121|113|102|135|125|143|248|109|123|112|112|129|130|131|122|116|133|136|128|265|139|125|156|144|137|121|129|122|126|136|135|124|127|252|117|134|143|148|131|147|172|177|156|148|176|144|178|328|163|175|196|191|159|192|206|195|183|222|216|238|467|234|229|229|215|185|205|208|195|192|138|188|177|151|338|162|169|145|145|166|181|166|164|161|139|137|145|134|314|145|182|174|160|151|156|172|168|189|183|151|135|282|145|134|117|122|117|113|103|106|106|86|90|76|84|184|65|79|58|53|70|55|59|65|65|57|73|96|80|133|79|94|84|79|73|75|54|64|48|58|49|52|136|54|41|48|47|64|68|51|63|53|42|33|32|32|45|23|16|11|12|12|21|12|15|4|3|2|3|1|2|0|0|1|0|1|0|0|0|0|0|0|0|3|2|0|0|0|0|0|0|0|1|0|1|1|1|2|0|0|0|0|0|1|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Net long wave radiation flux (surface) [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">NLWRS</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+      <MDI key="STATISTICS_MAXIMUM">-11.1</MDI>
+      <MDI key="STATISTICS_MEAN">-54.56111249885</MDI>
+      <MDI key="STATISTICS_MINIMUM">-118.3</MDI>
+      <MDI key="STATISTICS_STDDEV">25.834941730136</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Histograms>
+      <HistItem>
+        <HistMin>-6.8377</HistMin>
+        <HistMax>68.6377</HistMax>
+        <BucketCount>1000</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>2|0|0|0|0|1|0|2|0|0|0|0|2|1|0|2|2|1|0|2|1|5|0|6|7|5|11|0|5|7|5|0|5|10|7|0|11|7|11|0|5|6|8|0|14|11|15|0|6|12|14|0|12|16|25|0|11|17|22|0|22|30|32|0|38|33|26|0|54|45|55|0|56|68|80|0|80|91|85|138|0|132|120|116|0|109|133|111|0|120|121|105|0|114|124|131|0|156|151|197|0|185|218|173|0|193|229|234|0|270|296|292|0|266|288|266|0|294|277|292|0|290|344|330|0|357|396|443|0|423|435|491|458|0|429|443|452|0|431|437|371|0|421|408|407|0|394|381|397|0|391|381|358|0|395|377|356|0|380|355|376|0|412|404|411|0|384|424|364|0|379|405|405|0|389|434|421|0|415|364|353|0|353|407|366|371|0|378|378|358|0|368|376|390|0|423|395|385|0|433|447|460|0|466|424|442|0|438|402|407|0|371|389|304|0|281|322|317|0|333|311|339|0|316|290|265|0|277|314|257|0|277|276|251|0|278|234|251|262|0|257|290|263|0|289|264|251|0|277|278|266|0|276|273|249|0|266|279|268|0|265|278|274|0|285|310|295|0|276|270|280|0|264|273|274|0|256|267|294|0|293|257|276|0|308|275|259|0|264|261|286|281|0|282|264|256|0|240|251|281|0|282|258|281|0|267|276|262|0|242|274|244|0|254|276|283|0|241|238|235|0|231|217|212|0|230|198|236|0|208|227|207|0|234|217|212|0|203|186|194|0|233|192|218|198|0|201|193|190|0|187|187|182|0|194|174|180|0|178|186|165|0|155|172|159|0|159|152|171|0|144|161|140|0|132|149|141|0|139|157|141|0|128|141|136|0|128|106|114|0|105|112|97|0|104|85|93|105|0|116|109|105|0|98|88|96|0|92|97|95|0|81|91|105|0|85|71|88|0|105|99|76|0|89|73|77|0|85|75|81|0|66|69|55|0|64|62|62|0|47|49|72|0|64|65|52|0|59|57|55|49|0|61|73|48|0|58|62|69|0|63|57|40|0|40|48|59|0|69|62|58|0|56|31|40|0|50|47|54|0|54|48|40|0|41|51|39|0|39|35|40|0|42|33|50|0|39|38|42|0|41|34|54|46|0|47|36|36|0|43|33|46|0|46|49|44|0|39|48|45|0|40|35|41|0|49|27|55|0|46|39|39|0|49|26|42|0|28|32|34|0|37|27|39|0|36|28|35|0|27|39|27|32|0|30|29|36|0|31|35|25|0|30|36|31|0|28|35|46|0|24|35|30|0|28|35|30|0|32|28|27|0|20|26|41|0|32|31|35|0|26|23|29|0|29|12|27|0|29|21|22|0|17|23|20|22|0|20|21|21|0|25|19|24|0|17|13|9|0|23|14|15|0|23|23|21|0|18|23|24|0|19|14|14|0|11|16|16|0|17|26|18|0|22|11|19|0|16|20|12|0|20|14|10|0|13|14|12|14|0|13|12|19|0|14|14|11|0|10|16|14|0|9|5|15|0|10|14|6|0|11|15|12|0|12|9|11|0|13|16|8|0|7|7|6|0|4|8|5|0|8|4|7|0|11|6|3|0|5|2|9|9|0|4|4|7|0|4|6|8|0|8|2|5|0|8|5|4|0|6|4|4|0|3|9|5|0|4|4|4|0|5|6|4|0|2|0|2|0|6|5|6|0|6|5|2|0|7|2|1|0|3|1|2|4|0|1|4|2|0|2|0|0|0|1|1|2|0|1|1|1|0|1|1|1|0|1|1|3|0|0|0|0|0|0|0|0|0|1|0|3|0|0|0|0|0|0|1|0|0|0|2|2|0|1|0|3|0|0|0|0|1|0|0|2|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|1|0|0|0|0|0|0|0|1|1|0|0|0|2|0|1|1|1|0|2|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|1|0|1|0|1|0|0|0|0|1|1|0|1|0|1|0|0|0|2|0|2|1|1|0|1|0|0|0|0|0|2|0|1|1|0|0|1|0|0|0|1|0|1|0|0|0|0|0|0|1|0|2|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|1|1|0|0|1|1|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Latent heat net flux [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">LHTFL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+      <MDI key="STATISTICS_MAXIMUM">68.6</MDI>
+      <MDI key="STATISTICS_MEAN">12.368355179259</MDI>
+      <MDI key="STATISTICS_MINIMUM">-6.8</MDI>
+      <MDI key="STATISTICS_STDDEV">9.4563622382452</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Sensible heat flux [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">SHTFL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+      <MDI key="STATISTICS_MAXIMUM">107.1</MDI>
+      <MDI key="STATISTICS_MEAN">15.611252514363</MDI>
+      <MDI key="STATISTICS_MINIMUM">-29.1</MDI>
+      <MDI key="STATISTICS_STDDEV">19.994296367661</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="5">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Ground Heat Flux [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">GFLUX</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="6">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Snow phase-change heat flux [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">SNOHF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="7">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Downward shortwave radiation flux [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">DSWRF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="8">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Downward longwave radiation flux [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">DLWRF</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="9">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Frozen precipitation (e.g. snowfall) [Kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">ASNOW</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[Kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="10">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Liquid precipitation (rainfall) [Kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">ARAIN</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[Kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="11">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Evaporation [kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">EVP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="12">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Surface runoff (non-infiltrating) [Kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">SSRUN</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[Kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="13">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Subsurface runoff (baseflow) [Kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">BGRUN</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[Kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="14">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Snow melt [kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">SNOM</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="15">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Average surface skin temperature [C]</MDI>
+      <MDI key="GRIB_ELEMENT">AVSFT</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="16">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Albedo [%]</MDI>
+      <MDI key="GRIB_ELEMENT">ALBDO</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="17">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Water equiv. of accum. snow depth [kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">WEASD</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="18">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Plant canopy surface water [Kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">CNWAT</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[Kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="19">
+    <Description>0-10[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil temperature [C]</MDI>
+      <MDI key="GRIB_ELEMENT">TSOIL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-10-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="20">
+    <Description>10-40[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil temperature [C]</MDI>
+      <MDI key="GRIB_ELEMENT">TSOIL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">10-40-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="21">
+    <Description>40-100[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil temperature [C]</MDI>
+      <MDI key="GRIB_ELEMENT">TSOIL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">40-100-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="22">
+    <Description>100-200[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil temperature [C]</MDI>
+      <MDI key="GRIB_ELEMENT">TSOIL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">100-200-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[C]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="23">
+    <Description>0-200[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil moisture content [kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">SOILM</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-200-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="24">
+    <Description>0-100[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">undefined [-]</MDI>
+      <MDI key="GRIB_ELEMENT">var250</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-100-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[-]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="25">
+    <Description>0-100[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil moisture content [kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">SOILM</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-100-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="26">
+    <Description>0-10[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil moisture content [kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">SOILM</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-10-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="27">
+    <Description>10-40[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil moisture content [kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">SOILM</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">10-40-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="28">
+    <Description>40-100[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil moisture content [kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">SOILM</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">40-100-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="29">
+    <Description>100-200[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil moisture content [kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">SOILM</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">100-200-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="30">
+    <Description>0-10[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Liquid soil moisture content (non-frozen) [Kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">LSOIL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-10-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[Kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="31">
+    <Description>10-40[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Liquid soil moisture content (non-frozen) [Kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">LSOIL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">10-40-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[Kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="32">
+    <Description>40-100[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Liquid soil moisture content (non-frozen) [Kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">LSOIL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">40-100-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[Kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="33">
+    <Description>100-200[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Liquid soil moisture content (non-frozen) [Kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">LSOIL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">100-200-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[Kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="34">
+    <Description>0-200[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Moisture availability [%]</MDI>
+      <MDI key="GRIB_ELEMENT">MSTAV</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-200-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="35">
+    <Description>0-100[cm] DBLY (layer between 2 depths below land surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Moisture availability [%]</MDI>
+      <MDI key="GRIB_ELEMENT">MSTAV</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-100-DBLY</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="36">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Canopy water evaporation [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">EVCW</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="37">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Transpiration [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">TRANS</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="38">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Direct evaporation from bare soil [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">EVBS</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="39">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Sublimation (evaporation from snow) [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">SBSNO</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="40">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Potential latent heat flux (potential evaporation [W/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">PEVPR</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[W/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="41">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Aerodynamic conductance [m/s]</MDI>
+      <MDI key="GRIB_ELEMENT">ACOND</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[m/s]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="42">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Snow depth [m]</MDI>
+      <MDI key="GRIB_ELEMENT">SNOD</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[m]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="43">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Snow cover [%]</MDI>
+      <MDI key="GRIB_ELEMENT">SNOWC</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="44">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Conopy conductance [m/s]</MDI>
+      <MDI key="GRIB_ELEMENT">CCOND</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[m/s]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="45">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Solar parameter in canopy conductance [fraction]</MDI>
+      <MDI key="GRIB_ELEMENT">RCS</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[fraction]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="46">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Temperature parameter in canopy conductance [fraction]</MDI>
+      <MDI key="GRIB_ELEMENT">RCT</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[fraction]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="47">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Humidity parameter in canopy conductance [fraction]</MDI>
+      <MDI key="GRIB_ELEMENT">RCQ</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[fraction]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="48">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Soil moisture parameter in canopy conductance [fraction]</MDI>
+      <MDI key="GRIB_ELEMENT">RCSOL</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[fraction]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="49">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Minimal stomatal resistance [s/m]</MDI>
+      <MDI key="GRIB_ELEMENT">RSMIN</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[s/m]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="50">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Leaf area index (0-9) [-]</MDI>
+      <MDI key="GRIB_ELEMENT">LAI</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[-]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="51">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Vegetation [%]</MDI>
+      <MDI key="GRIB_ELEMENT">VEG</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[%]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="52">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">undefined [-]</MDI>
+      <MDI key="GRIB_ELEMENT">var255</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">0 sec</MDI>
+      <MDI key="GRIB_REF_TIME">1359676800 sec UTC</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[-]</MDI>
+      <MDI key="GRIB_VALID_TIME">1359676800 sec UTC</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
