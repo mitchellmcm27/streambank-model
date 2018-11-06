@@ -299,8 +299,8 @@ for row = 1:size(input_table,1)
             axis equal
             hold on
             pcolor([x+B(row)/2*cos(n);x-B(row)/2*cos(n)],...
-                [y+B(row)/2*sin(n);y-B(row)/2*sin(n)],...
-                mean(unl.h) + [-H_nb, H_nb]');
+                   [y+B(row)/2*sin(n);y-B(row)/2*sin(n)],...
+                   mean(unl.h) + [-H_nb{mnth}, H_nb{mnth}]');
             shading interp
             colormap parula
             colorbar
