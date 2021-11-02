@@ -4,7 +4,7 @@
 
 ## Streambank erosion model in Matlab
 
-Paper currently under review.
+McMillan, M. and Z. Hu, 2017. A watershed scale spatially-distributed model for streambank erosion rate driven by channel curvature. Geomorphology 294, 146–161. https://doi.org/10.1016/j.geomorph.2017.03.017.
 
 ### Run the model with supplied data
 
